@@ -17,7 +17,7 @@ class GuaniAdminMiddleware
     {
         if (!auth()->check() || !auth()->user()->isAdmin()) {
             return back();
-        }   
+        }
         return $next($request);
     }
 }

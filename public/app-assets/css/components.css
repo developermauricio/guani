@@ -689,9 +689,9 @@ footer.footer-border {
 }
 
 .main-menu.menu-light .navigation > li.active > a {
-  background : -webkit-linear-gradient(332deg, #F15F7E, rgba(115, 103, 240, 0.7));
-  background :         linear-gradient(118deg, #F15F7E, rgba(115, 103, 240, 0.7));
-  box-shadow : 0 0 10px 1px rgba(115, 103, 240, 0.7);
+  background : -webkit-linear-gradient(332deg, #F15F7E, #79EBDF);
+  background :         linear-gradient(118deg, #F15F7E, #79EBDF);
+  box-shadow : 0 0 10px 1px #79EBDF;
   color : #FFFFFF;
   font-weight : 400;
   border-radius : 4px;
@@ -880,9 +880,9 @@ footer.footer-border {
 }
 
 .main-menu.menu-dark .navigation > li.active > a {
-  background : -webkit-linear-gradient(332deg, #F15F7E, rgba(115, 103, 240, 0.7));
-  background :         linear-gradient(118deg, #F15F7E, rgba(115, 103, 240, 0.7));
-  box-shadow : 0 0 10px 1px rgba(115, 103, 240, 0.7);
+  background : -webkit-linear-gradient(332deg, #F15F7E, #29394A);
+  background :         linear-gradient(118deg, #F15F7E, #29394A);
+  box-shadow : 0 0 10px 1px #29394A;
   color : #FFFFFF;
   font-weight : 400;
   border-radius : 4px;

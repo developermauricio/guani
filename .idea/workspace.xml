@@ -173,7 +173,7 @@
       <updated>1613261833314</updated>
       <workItem from="1613261834717" duration="5324000" />
       <workItem from="1613274768906" duration="8055000" />
-      <workItem from="1613306753899" duration="2386000" />
+      <workItem from="1613306753899" duration="16612000" />
     </task>
     <servers />
   </component>
@@ -181,9 +181,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="373" key="NewPhpFileDialog" timestamp="1613282139653">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2138" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613323501286">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+    <state x="2138" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613323501286" />
+    <state x="2161" y="448" key="NewPhpFileDialog" timestamp="1613320230780">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2161" y="448" key="NewPhpFileDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613320230780" />
     <state x="541" y="373" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1613282139653" />
+    <state x="2065" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1613322972905">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="262" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613322972905" />
   </component>
 </project>

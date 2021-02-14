@@ -1,4 +1,5 @@
-<nav class="header-navbar background-navigation-header-black navbar navbar-expand-lg align-items-center fixed-top navbar-light navbar-shadow">
+<nav
+    class="header-navbar background-navigation-header-black navbar navbar-expand-lg align-items-center fixed-top navbar-light navbar-shadow">
     <div class="navbar-container d-flex content">
         <div class="bookmark-wrapper d-flex align-items-center">
             <ul class="nav navbar-nav d-xl-none">
@@ -6,33 +7,33 @@
                                                                                                    data-feather="menu"></i></a>
                 </li>
             </ul>
-{{--            <ul class="nav navbar-nav bookmark-icons">--}}
-{{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html"--}}
-{{--                                                          data-toggle="tooltip" data-placement="top"--}}
-{{--                                                          title="Email"><i class="ficon"--}}
-{{--                                                                           data-feather="mail"></i></a></li>--}}
-{{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html"--}}
-{{--                                                          data-toggle="tooltip" data-placement="top" title="Chat"><i--}}
-{{--                            class="ficon" data-feather="message-square"></i></a></li>--}}
-{{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html"--}}
-{{--                                                          data-toggle="tooltip" data-placement="top"--}}
-{{--                                                          title="Calendar"><i class="ficon"--}}
-{{--                                                                              data-feather="calendar"></i></a></li>--}}
-{{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html"--}}
-{{--                                                          data-toggle="tooltip" data-placement="top" title="Todo"><i--}}
-{{--                            class="ficon" data-feather="check-square"></i></a></li>--}}
-{{--            </ul>--}}
-{{--            <ul class="nav navbar-nav">--}}
-{{--                <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i--}}
-{{--                            class="ficon text-warning" data-feather="star"></i></a>--}}
-{{--                    <div class="bookmark-input search-input">--}}
-{{--                        <div class="bookmark-input-icon"><i data-feather="search"></i></div>--}}
-{{--                        <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0"--}}
-{{--                               data-search="search">--}}
-{{--                        <ul class="search-list search-list-bookmark"></ul>--}}
-{{--                    </div>--}}
-{{--                </li>--}}
-{{--            </ul>--}}
+            {{--            <ul class="nav navbar-nav bookmark-icons">--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html"--}}
+            {{--                                                          data-toggle="tooltip" data-placement="top"--}}
+            {{--                                                          title="Email"><i class="ficon"--}}
+            {{--                                                                           data-feather="mail"></i></a></li>--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html"--}}
+            {{--                                                          data-toggle="tooltip" data-placement="top" title="Chat"><i--}}
+            {{--                            class="ficon" data-feather="message-square"></i></a></li>--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html"--}}
+            {{--                                                          data-toggle="tooltip" data-placement="top"--}}
+            {{--                                                          title="Calendar"><i class="ficon"--}}
+            {{--                                                                              data-feather="calendar"></i></a></li>--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html"--}}
+            {{--                                                          data-toggle="tooltip" data-placement="top" title="Todo"><i--}}
+            {{--                            class="ficon" data-feather="check-square"></i></a></li>--}}
+            {{--            </ul>--}}
+            {{--            <ul class="nav navbar-nav">--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i--}}
+            {{--                            class="ficon text-warning" data-feather="star"></i></a>--}}
+            {{--                    <div class="bookmark-input search-input">--}}
+            {{--                        <div class="bookmark-input-icon"><i data-feather="search"></i></div>--}}
+            {{--                        <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0"--}}
+            {{--                               data-search="search">--}}
+            {{--                        <ul class="search-list search-list-bookmark"></ul>--}}
+            {{--                    </div>--}}
+            {{--                </li>--}}
+            {{--            </ul>--}}
         </div>
         <ul class="nav navbar-nav align-items-center ml-auto">
             {{--       SELECT DE IDIOMAS     --}}
@@ -53,8 +54,9 @@
             {{--                                                                             data-language="pt"><i--}}
             {{--                            class="flag-icon flag-icon-pt"></i> Portuguese</a></div>--}}
             {{--            </li>--}}
-            <li class="nav-item d-none d-lg-block"><a class="nav-link icon-navigation-header-black nav-link-style"><i class="ficon"
-                                                                                         data-feather="moon"></i></a>
+            <li class="nav-item d-none d-lg-block"><a class="nav-link icon-navigation-header-black nav-link-style"><i
+                        class="ficon"
+                        data-feather="moon"></i></a>
             </li>
             {{--          BUSCADOR  --}}
             {{--            <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i class="ficon"--}}
@@ -222,23 +224,27 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a
                         class="dropdown-item" href="page-profile.html"><i class="mr-50" data-feather="user"></i>
                         Perfil</a>
-{{--                    <a class="dropdown-item" href="app-email.html">--}}
-{{--                        <i class="mr-50" data-feather="mail"></i> Inbox</a><a--}}
-{{--                        class="dropdown-item" href="app-todo.html"><i class="mr-50" data-feather="check-square"></i>--}}
-{{--                        Task</a><a class="dropdown-item" href="app-chat.html"><i class="mr-50"--}}
-{{--                                                                                 data-feather="message-square"></i>--}}
-{{--                        Chats</a>--}}
+                    {{--                    <a class="dropdown-item" href="app-email.html">--}}
+                    {{--                        <i class="mr-50" data-feather="mail"></i> Inbox</a><a--}}
+                    {{--                        class="dropdown-item" href="app-todo.html"><i class="mr-50" data-feather="check-square"></i>--}}
+                    {{--                        Task</a><a class="dropdown-item" href="app-chat.html"><i class="mr-50"--}}
+                    {{--                                                                                 data-feather="message-square"></i>--}}
+                    {{--                        Chats</a>--}}
                     <div class="dropdown-divider"></div>
-{{--                    <a class="dropdown-item" href="page-account-settings.html"><i class="mr-50"--}}
-{{--                                                                                  data-feather="settings"></i>--}}
-{{--                        Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="mr-50"--}}
-{{--                                                                                         data-feather="credit-card"></i>--}}
-{{--                        Pricing</a><a class="dropdown-item" href="page-faq.html"><i class="mr-50"--}}
-{{--                                                                                    data-feather="help-circle"></i>--}}
-{{--                        FAQ</a>--}}
-                    <a class="dropdown-item" href="page-auth-login-v2.html"><i class="mr-50"
-                                                                                          data-feather="power"></i>
-                        Cerrar Sesión</a>
+                    {{--                    <a class="dropdown-item" href="page-account-settings.html"><i class="mr-50"--}}
+                    {{--                                                                                  data-feather="settings"></i>--}}
+                    {{--                        Settings</a><a class="dropdown-item" href="page-pricing.html"><i class="mr-50"--}}
+                    {{--                                                                                         data-feather="credit-card"></i>--}}
+                    {{--                        Pricing</a><a class="dropdown-item" href="page-faq.html"><i class="mr-50"--}}
+                    {{--                                                                                    data-feather="help-circle"></i>--}}
+                    {{--                        FAQ</a>--}}
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <button class="dropdown-item" href="page-auth-login-v2.html"><i class="mr-50"
+                                                                                        data-feather="power"></i>
+                            Cerrar Sesión
+                        </button>
+                    </form>
                 </div>
             </li>
         </ul>

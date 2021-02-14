@@ -28,6 +28,7 @@ class TenancyHostnames extends AbstractMigration
             $table->foreign('user_id')->references("id")->on("users");
             $table->boolean("active")->default(true)->comment("Para verificar si el sitio esta activo o no");
             $table->string('fqdn')->unique();
+            $table->enum("type", ["admin","incentivadora", "redentora"]);
             $table->string('redirect_to')->nullable();
             $table->boolean('force_https')->default(false);
             $table->timestamp('under_maintenance_since')->nullable();

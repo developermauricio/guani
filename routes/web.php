@@ -18,9 +18,10 @@ use Illuminate\Support\Facades\Route;
  */
 Route::group(["middleware" => ["auth", "root"]], function () {
 
-
+    Route::get('/dashboard', 'Emincentivadora\DashboardController@index')->name('incentivadora.index.dashboard');
     Route::group(["middleware" => "guani.admin"], function () {
-
+        Route::get('/create-company-incentivadora', 'CompanyIncentivadoraController@index')->name('admin.index.create.company.incentivadora');
+        Route::post("/company-incentivadora-store", "CompanyIncentivadoraController@storeCompanyIncentivadora")->name("admin.store.company.incentivadora");
     });
 
 });
@@ -32,4 +33,4 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'DashboardController@index')->name('admin.index.dashboard');

@@ -42,7 +42,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- END: Custom CSS-->
     <!-- Scripts -->
-{{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
+    {{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
 </head>
 <!-- END: Head-->
 
@@ -53,115 +53,23 @@
 <div id="app">
     <!-- BEGIN: Header-->
 
-    @include('partials.headnavigation.guani')
-
-    <ul class="main-search-list-defaultlist d-none">
-        <li class="d-flex align-items-center"><a href="javascript:void(0);">
-                <h6 class="section-label mt-75 mb-0">Files</h6>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
-                                       href="app-file-manager.html">
-                <div class="d-flex">
-                    <div class="mr-75"><img src="/app-assets/images/icons/xls.png" alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing
-                            Manager</small>
-                    </div>
-                </div>
-                <small class="search-data-size mr-50 text-muted">&apos;17kb</small>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
-                                       href="app-file-manager.html">
-                <div class="d-flex">
-                    <div class="mr-75"><img src="/app-assets/images/icons/jpg.png" alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd
-                            Developer</small>
-                    </div>
-                </div>
-                <small class="search-data-size mr-50 text-muted">&apos;11kb</small>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
-                                       href="app-file-manager.html">
-                <div class="d-flex">
-                    <div class="mr-75"><img src="/app-assets/images/icons/pdf.png" alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital
-                            Marketing Manager</small>
-                    </div>
-                </div>
-                <small class="search-data-size mr-50 text-muted">&apos;150kb</small>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
-                                       href="app-file-manager.html">
-                <div class="d-flex">
-                    <div class="mr-75"><img src="/app-assets/images/icons/doc.png" alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web
-                            Designer</small>
-                    </div>
-                </div>
-                <small class="search-data-size mr-50 text-muted">&apos;256kb</small>
-            </a></li>
-        <li class="d-flex align-items-center"><a href="javascript:void(0);">
-                <h6 class="section-label mt-75 mb-0">Members</h6>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
-                                       href="app-user-view.html">
-                <div class="d-flex align-items-center">
-                    <div class="avatar mr-75"><img src="/app-assets/images/portrait/small/avatar-s-8.jpg"
-                                                   alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
-                    </div>
-                </div>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
-                                       href="app-user-view.html">
-                <div class="d-flex align-items-center">
-                    <div class="avatar mr-75"><img src="/app-assets/images/portrait/small/avatar-s-1.jpg"
-                                                   alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd
-                            Developer</small>
-                    </div>
-                </div>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
-                                       href="app-user-view.html">
-                <div class="d-flex align-items-center">
-                    <div class="avatar mr-75"><img src="/app-assets/images/portrait/small/avatar-s-14.jpg"
-                                                   alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing
-                            Manager</small>
-                    </div>
-                </div>
-            </a></li>
-        <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
-                                       href="app-user-view.html">
-                <div class="d-flex align-items-center">
-                    <div class="avatar mr-75"><img src="/app-assets/images/portrait/small/avatar-s-6.jpg"
-                                                   alt="png" height="32"></div>
-                    <div class="search-data">
-                        <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
-                    </div>
-                </div>
-            </a></li>
-    </ul>
-    <ul class="main-search-list-defaultlist-other-list d-none">
-        <li class="auto-suggestion justify-content-between"><a
-                class="d-flex align-items-center justify-content-between w-100 py-50">
-                <div class="d-flex justify-content-start"><span class="mr-75" data-feather="alert-circle"></span><span>No results found.</span>
-                </div>
-            </a></li>
-    </ul>
-    <!-- END: Header-->
+@include('partials.headnavigation.guani')
 
 
-    <!-- BEGIN: Main Menu-->
+<!-- BEGIN: Main Menu-->
+    <!--=====================================
+		SIDEBAR MENU GUANI
+    ======================================-->
+{{-- Si está identificado, no es una website y SÍ es admin --}}
+
+@if(!$currentWebsiteIncentivadora || !$currentWebsiteRedentora)
+    @if(auth()->user()->isAdmin())
         @include('partials.sidebarmenu.guani')
-    <!-- END: Main Menu-->
+    @endif
+@elseif($currentWebsiteIncentivadora->type === 'incentivadora')
+    @include('partials.sidebarmenu.incentivadora')
+@endif
+<!-- END: Main Menu-->
 
     <!-- BEGIN: Content-->
     <div class="app-content content ">
@@ -169,61 +77,15 @@
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
             <div class="content-header row">
-                <div class="content-header-left col-md-9 col-12 mb-2">
-                    <div class="row breadcrumbs-top">
-                        <div class="col-12">
-                            <h2 class="content-header-title float-left mb-0">Layout Empty</h2>
-                            <div class="breadcrumb-wrapper">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item"><a href="#">Layouts</a>
-                                    </li>
-                                    <li class="breadcrumb-item active">Layout Empty
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
-                    <div class="form-group breadcrumb-right">
-                        <div class="dropdown">
-                            <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                    data-feather="grid"></i></button>
-                            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item"
-                                                                              href="app-todo.html"><i class="mr-1"
-                                                                                                      data-feather="check-square"></i><span
-                                        class="align-middle">Todo</span></a><a class="dropdown-item"
-                                                                               href="app-chat.html"><i class="mr-1"
-                                                                                                       data-feather="message-square"></i><span
-                                        class="align-middle">Chat</span></a><a class="dropdown-item"
-                                                                               href="app-email.html"><i class="mr-1"
-                                                                                                        data-feather="mail"></i><span
-                                        class="align-middle">Email</span></a><a class="dropdown-item"
-                                                                                href="app-calendar.html"><i class="mr-1"
-                                                                                                            data-feather="calendar"></i><span
-                                        class="align-middle">Calendar</span></a></div>
-                        </div>
-                    </div>
-                </div>
+                @yield('header')
             </div>
             <div class="content-body">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="alert alert-primary" role="alert">
-                            <div class="alert-body">
-                                <strong>Info:</strong> This layout can be useful for getting started with empty content
-                                section. Please check
-                                the&nbsp;<a class="text-primary"
-                                            href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-layout-empty.html"
-                                            target="_blank">Layout empty documentation</a>&nbsp; for more details.
-                            </div>
-                        </div>
+                @if(session('success'))
+                    <div class="alert alert-success" role="alert">
+                        <div class="alert-body"><strong>Todo ha salido bien!</strong> {{ session('success')}}</div>
                     </div>
-                </div>
-
+                @endif
+                @yield('content')
             </div>
         </div>
     </div>
@@ -268,6 +130,7 @@
             }
         })
     </script>
+    @stack('js')
 </div>
 </body>
 <!-- END: Body-->

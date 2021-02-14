@@ -6,13 +6,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="description"
+          content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+          content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favi.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+          rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
@@ -43,7 +46,8 @@
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click"
+      data-menu="vertical-menu-modern" data-col="blank-page">
 <!-- BEGIN: Content-->
 <div class="app-content background-auth content">
     <div class="content-overlay"></div>
@@ -57,24 +61,48 @@
                     <!-- Forgot Password v1 -->
                     <div class="mb-0">
                         <div class="">
-                            <a href="javascript:void(0);" class="brand-logo">
-                                <img width="300" height="123" src="/images/logo-auth.png" alt="">
-                            </a>
+                            @if($currentWebsiteIncentivadora)
+                                <a href="javascript:void(0);" class="brand-logo">
+                                    <img width="300" height="90" src="{{$currentWebsiteIncentivadora->logo}}" alt="">
+                                </a>
+                            @else
+                                <a href="javascript:void(0);" class="brand-logo">
+                                    <img width="300" height="123" src="/images/logo-auth.png" alt="">
+                                </a>
+                            @endif
 
                             <h4 class="card-title mb-1">Olvidó su Contraseña? 🔒</h4>
-                            <p class="card-text mb-2">Ingresa tu correo electrónico y te enviaremos <br>instrucciones para restablecer tu contraseña</p>
+                            <p class="card-text mb-2">Ingresa tu correo electrónico y te enviaremos <br>instrucciones
+                                para restablecer tu contraseña</p>
 
-                            <form class="auth-forgot-password-form mt-2" action="page-auth-reset-password-v1.html" method="POST">
+                            <form class="auth-forgot-password-form mt-2" action="{{ route('password.email') }}"
+                                  method="POST">
+                                @csrf
                                 <div class="form-group">
                                     <label for="forgot-password-email" class="form-label">Correo electrónico</label>
-                                    <input type="text" class="form-control" id="forgot-password-email" name="forgot-password-email" placeholder="john@ejemplo.com" aria-describedby="forgot-password-email" tabindex="1" autofocus />
+                                    <input type="email" class="form-control @error('email') is-invalid @enderror"
+                                           id="email" name="email" placeholder="john@ejemplo.com"
+                                           value="{{ old('email') }}" aria-describedby="forgot-password-email"
+                                           tabindex="1" autofocus/>
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
-                                <button class="btn btn-primary btn-block" tabindex="2">Enviar enlace de restablecimiento</button>
+                                <button class="btn btn-primary btn-block" type="submit" tabindex="2">Enviar enlace de
+                                    restablecimiento
+                                </button>
                             </form>
 
                             <p class="text-center mt-2">
                                 <a href="{{ route('login') }}"> <i data-feather="chevron-left"></i> Volver al login </a>
                             </p>
+                                @if($currentWebsiteIncentivadora)
+                                    <div class="brand-logo pt-2">
+                                        <img width="80" height="34" src="/images/logo-auth.png" alt="">
+                                    </div>
+                                @endif
                         </div>
                     </div>
                     <!-- /Forgot Password v1 -->
@@ -105,7 +133,7 @@
 <!-- END: Page JS-->
 
 <script>
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         if (feather) {
             feather.replace({
                 width: 14,
@@ -118,10 +146,6 @@
 <!-- END: Body-->
 
 </html>
-
-
-
-
 
 
 {{--@extends('layouts.app')--}}

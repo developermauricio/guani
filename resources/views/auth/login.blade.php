@@ -6,13 +6,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="description"
+          content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+          content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favi.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+          rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
@@ -44,7 +47,8 @@
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click"
+      data-menu="vertical-menu-modern" data-col="blank-page">
 <!-- BEGIN: Content-->
 <div class="app-content background-auth content">
     <div class="content-overlay"></div>
@@ -58,17 +62,32 @@
                     <!-- Login v1 -->
                     <div class="">
                         <div class="">
-                            <a href="javascript:void(0);" class="brand-logo">
-                                <img width="300" height="123" src="/images/logo-auth.png" alt="">
-                            </a>
+                            @if($currentWebsiteIncentivadora)
+                                <a href="javascript:void(0);" class="brand-logo">
+                                    <img width="300" height="90" src="{{$currentWebsiteIncentivadora->logo}}" alt="">
+                                </a>
+                            @else
+                                <a href="javascript:void(0);" class="brand-logo">
+                                    <img width="300" height="123" src="/images/logo-auth.png" alt="">
+                                </a>
+                            @endif
 
-{{--                            <h4 class="card-title mb-1">Welcome to Vuexy! 👋</h4>--}}
-{{--                            <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>--}}
+                            {{--                            <h4 class="card-title mb-1">Welcome to Vuexy! 👋</h4>--}}
+                            {{--                            <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>--}}
 
-                            <form class="auth-login-form mt-2" action="index.html" method="POST">
+                            <form method="POST" action="{{ route('login') }}" class="auth-login-form mt-2">
+                                @csrf
                                 <div class="form-group">
                                     <label for="login-email" class="form-label">Correo Electrónico</label>
-                                    <input type="text" class="form-control" id="login-email" name="login-email" placeholder="john@ejemplo.com" aria-describedby="login-email" tabindex="1" autofocus />
+                                    <input type="email" class="form-control @error('email') is-invalid @enderror"
+                                           id="email" name="email" value="{{ old('email') }}"
+                                           placeholder="john@ejemplo.com" aria-describedby="login-email" tabindex="1"
+                                           autofocus/>
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group">
@@ -79,19 +98,32 @@
                                         </a>
                                     </div>
                                     <div class="input-group input-group-merge form-password-toggle">
-                                        <input type="password" class="form-control"  name="login-password" tabindex="2" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="login-password" />
+                                        <input type="password"
+                                               class="form-control @error('password') is-invalid @enderror"
+                                               name="password" tabindex="2"
+                                               placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                               aria-describedby="login-password"/>
                                         <div class="input-group-append">
-                                            <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                            <span class="input-group-text cursor-pointer"><i
+                                                    data-feather="eye"></i></span>
                                         </div>
+                                        @error('password')--}}
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="custom-control custom-checkbox">
-                                        <input class="custom-control-input" type="checkbox" id="remember-me" tabindex="3" />
+                                        <input class="custom-control-input" name="remember" type="checkbox"
+                                               id="remember" {{ old('remember') ? 'checked' : '' }}
+                                               tabindex="3"/>
                                         <label class="custom-control-label" for="remember-me"> Recuérdame</label>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary btn-block" tabindex="4">Iniciar Sesión</button>
+                                <button class="btn btn-primary btn-block" type="submit" tabindex="4">Iniciar Sesión
+                                </button>
                             </form>
 
                             <p class="text-center mt-2">
@@ -100,25 +132,31 @@
                                     <span style="color: #F15F7E">Contáctanos</span>
                                 </a>
                             </p>
+                            @if($currentWebsiteIncentivadora)
+                                <div class="brand-logo pt-2">
+                                    <img width="80" height="34" src="/images/logo-auth.png" alt="">
+                                </div>
+                            @endif
 
-{{--                            <div class="divider my-2">--}}
-{{--                                <div class="divider-text">or</div>--}}
-{{--                            </div>--}}
 
-{{--                            <div class="auth-footer-btn d-flex justify-content-center">--}}
-{{--                                <a href="javascript:void(0)" class="btn btn-facebook">--}}
-{{--                                    <i data-feather="facebook"></i>--}}
-{{--                                </a>--}}
-{{--                                <a href="javascript:void(0)" class="btn btn-twitter white">--}}
-{{--                                    <i data-feather="twitter"></i>--}}
-{{--                                </a>--}}
-{{--                                <a href="javascript:void(0)" class="btn btn-google">--}}
-{{--                                    <i data-feather="mail"></i>--}}
-{{--                                </a>--}}
-{{--                                <a href="javascript:void(0)" class="btn btn-github">--}}
-{{--                                    <i data-feather="github"></i>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="divider my-2">--}}
+                            {{--                                <div class="divider-text">or</div>--}}
+                            {{--                            </div>--}}
+
+                            {{--                            <div class="auth-footer-btn d-flex justify-content-center">--}}
+                            {{--                                <a href="javascript:void(0)" class="btn btn-facebook">--}}
+                            {{--                                    <i data-feather="facebook"></i>--}}
+                            {{--                                </a>--}}
+                            {{--                                <a href="javascript:void(0)" class="btn btn-twitter white">--}}
+                            {{--                                    <i data-feather="twitter"></i>--}}
+                            {{--                                </a>--}}
+                            {{--                                <a href="javascript:void(0)" class="btn btn-google">--}}
+                            {{--                                    <i data-feather="mail"></i>--}}
+                            {{--                                </a>--}}
+                            {{--                                <a href="javascript:void(0)" class="btn btn-github">--}}
+                            {{--                                    <i data-feather="github"></i>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
                         </div>
                     </div>
                     <!-- /Login v1 -->
@@ -149,7 +187,7 @@
 <!-- END: Page JS-->
 
 <script>
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         if (feather) {
             feather.replace({
                 width: 14,
@@ -162,15 +200,6 @@
 <!-- END: Body-->
 
 </html>
-
-
-
-
-
-
-
-
-
 
 
 {{--@extends('layouts.app')--}}

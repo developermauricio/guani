@@ -35,36 +35,30 @@
                     data-feather="more-horizontal"></i>
             </li>
             <!--=====================================
-		        EMPRESA INCENTIVADORES
+		        ADMINISTRAR EMPRESAS
             ======================================-->
             <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Incentivadoras</span></a>
+                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Administrar Empresa</span></a>
                 <ul class="menu-content menu-content-background-black">
                     <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="app-user-list.html"><i
                                 data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas</span></a>
+                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas Hijas</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="{{route('admin.index.create.company.incentivadora')}}"><i
+                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
                                 data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Empresa</span></a>
+                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Empresa Hija</span></a>
+                    </li>
+                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
+                                data-feather="circle"></i><span
+                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Empleados</span></a>
                     </li>
                 </ul>
             </li>
             <!--=====================================
-		        EMPRESAS REDENTORAS
+		        CANALES PLANES RANKINS
             ======================================-->
-            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Redentoras</span></a>
-                <ul class="menu-content menu-content-background-black">
-                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="app-user-list.html"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas</span></a>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Empresa</span></a>
-                    </li>
-                </ul>
+            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='tool'></i><span
+                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Canales Planes Rankins</span></a>
             </li>
             <!--=====================================
 		        ADMINISTRAR PREMIOS
@@ -107,3 +101,4 @@
         </ul>
     </div>
 </div>
+

@@ -25,7 +25,7 @@ class TenancyWebsites extends AbstractMigration
         Schema::create('websites', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('uuid');
-            $table->string('logo');
+            $table->string('logo')->nullable();
             $table->enum("type", ["admin","incentivadora", "redentora"]);
             $table->timestamps();
             $table->softDeletes();
