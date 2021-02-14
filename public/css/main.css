@@ -1,0 +1,55 @@
+.background-auth{
+    background-image: url("/images/backgroud-login.png");
+    background-position: center;
+    background-size: cover;
+}
+.sidebar-background-black{
+    background-image: url("/images/sidebar-background-black.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.backgroud-menu-black{
+    background: #172737 !important;
+}
+
+.text-background-menu-black{
+    color: #D0D2D6 !important;
+}
+
+.icons-background-black svg{
+    color: #D0D2D6 !important;
+}
+
+.main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a.hover-colapse-menu-background-black{
+    color: #565360;
+    background: #1e384a !important;
+    border-radius: 6px;
+}
+
+.main-menu.menu-dark .navigation > li .active .hover > a, .main-menu.menu-dark .navigation > li .active :hover > a.hover-colapse-menu-background-black {
+    background: #1e384a !important;;
+}
+
+.main-menu.menu-dark .navigation > li ul .open > a, .main-menu.menu-dark .navigation > li ul .sidebar-group-active > a.hover-colapse-menu-background-black{
+    color : #DCDCDC;
+    background: #1e384a !important;
+    border-radius : 6px;
+}
+
+
+.main-menu.menu-dark .navigation > li.open:not(.menu-item-closing) > a, .main-menu.menu-dark .navigation > li.sidebar-group-active > a.hover-colapse-menu-background-black{
+    background: #1e384a !important;
+}
+
+.dark-layout .main-menu-content .navigation-main .nav-item .menu-content-background-black{
+    background-color: #172737;
+}
+
+
+.background-navigation-header-black{
+    background-image: url("/images/background-navigation-header-black.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
