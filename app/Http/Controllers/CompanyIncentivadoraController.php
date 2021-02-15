@@ -21,36 +21,37 @@ class CompanyIncentivadoraController extends Controller
         $fqdn = sprintf('%s.%s', request('fqdn'), env('APP_DOMAIN'));
 
         try {
-            DB::beginTransaction();
+            //DB::beginTransaction();
 
             $user = new User;
             $user->name = $request->name;
             $user->email = $request->email;
             $user->fqdn = $request->fqdn;
-            $user->type = "incentivadora";
+            $user->type = User::TYPE_INCENTIVADORA;
             $user->password = bcrypt("password");
             $user->save();
 
-            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/redentora') );
+            //Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/redentora') );
+            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/incentivadora') );
 
             $website = new Website;
             $website->uuid = $user->fqdn;
-            $website->type = "incentivadora";
+            $website->type = User::TYPE_INCENTIVADORA;
             $website->logo = $request->logo;
             app(WebsiteRepository::class)->create($website);
 
             $hostname = new Hostname;
             $hostname->fqdn = $fqdn;
             $hostname->user_id = $user->id;
-            $hostname->type = "incentivadora";
+            $hostname->type = User::TYPE_INCENTIVADORA;
             $hostname = app(HostnameRepository::class)->create($hostname);
             app(HostnameRepository::class)->attach($hostname, $website);
 
-            DB::commit();
+            //DB::commit();
 
             return back()->with('success', 'Empresa Incentivadora Creada Correctamente');
         }catch (\Exception $exception){
-            DB::rollBack();
+            //DB::rollBack();
             dd($exception->getMessage());
         }
     }

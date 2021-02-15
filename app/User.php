@@ -10,6 +10,11 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    // Constantes Necesarias
+    const TYPE_ADMIN = 'admin';
+    const TYPE_INCENTIVADORA = 'incentivadora';
+    const TYPE_REDENTORA = 'redentora';
+
     /**
      * The attributes that are mass assignable.
      *
@@ -37,7 +42,21 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function isAdmin(){
-        return $this->type === "admin";
+    // Guardar los datos en minuscula
+    public function setNameAttribute( $value ) {
+       $this->attributes['name'] = strtolower( $value );
+    }
+
+    public function setEmailAttribute( $value ) {
+       $this->attributes['email'] = strtolower( $value );
+    }
+
+    // Recuperar los datos capitalizados
+    public function getNameAttribute( $value ) {
+       return ucwords( $value );
+    }
+
+    public function isAdmin() {
+        return $this->type === User::TYPE_ADMIN;
     }
 }
