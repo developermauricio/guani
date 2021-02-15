@@ -49899,11 +49899,8 @@ __webpack_require__.r(__webpack_exports__);
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
-
 __webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/js/guani.js */"./resources/js/guani.js");
 module.exports = __webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/sass/guani.scss */"./resources/sass/guani.scss");
-
-
 /***/ })
 
 /******/ });

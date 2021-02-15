@@ -8,6 +8,7 @@ use Hyn\Tenancy\Models\Website;
 use Hyn\Tenancy\Repositories\HostnameRepository;
 use Hyn\Tenancy\Repositories\WebsiteRepository;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 
 class CompanyIncentivadoraController extends Controller
@@ -20,6 +21,8 @@ class CompanyIncentivadoraController extends Controller
         $fqdn = sprintf('%s.%s', request('fqdn'), env('APP_DOMAIN'));
 
         try {
+            DB::beginTransaction();
+
             $user = new User;
             $user->name = $request->name;
             $user->email = $request->email;
@@ -27,6 +30,8 @@ class CompanyIncentivadoraController extends Controller
             $user->type = "incentivadora";
             $user->password = bcrypt("password");
             $user->save();
+
+            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/redentora') );
 
             $website = new Website;
             $website->uuid = $user->fqdn;
@@ -40,6 +45,8 @@ class CompanyIncentivadoraController extends Controller
             $hostname->type = "incentivadora";
             $hostname = app(HostnameRepository::class)->create($hostname);
             app(HostnameRepository::class)->attach($hostname, $website);
+
+            DB::commit();
 
             return back()->with('success', 'Empresa Incentivadora Creada Correctamente');
         }catch (\Exception $exception){
