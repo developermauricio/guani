@@ -27,6 +27,9 @@ Route::group(["middleware" => ["auth", "root"]], function () {
         RUTAS PARA LA EMPRESA ADMINISTRADORA
     =============================================*/
     Route::group(["middleware" => "guani.admin"], function () {
+
+        /* RUTAS PARA EL PERFIL DESDE EL ADMIN*/
+        Route::get('/profile-guani', 'UserController@indexProfile')->name('admin.index.perfil');
         /* RUTAS PARA EMPRESA INCENTIVADORA DESDE EL ADMIN*/
         Route::get('/incentivadoras/create-company', 'CompanyIncentivadoraController@index')->name('admin.index.create.company.incentivadora'); //Ruta para la vista CREAR EMPRESA INCENTIVADORA
         Route::post("/company-incentivadora-store", "CompanyIncentivadoraController@storeCompanyIncentivadora")->name("admin.store.company.incentivadora"); //Ruta para CREAR EMPRESA INCENTIVADORA

@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function indexProfile(){
-
+        return view('guani.profile.profile');
     }
 }

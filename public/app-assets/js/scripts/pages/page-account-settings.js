@@ -41,56 +41,56 @@ $(function () {
     });
   }
 
-  // jQuery Validation
-  // --------------------------------------------------------------------
-  if (form.length) {
-    form.each(function () {
-      var $this = $(this);
-
-      $this.validate({
-        rules: {
-          username: {
-            required: true
-          },
-          name: {
-            required: true
-          },
-          email: {
-            required: true,
-            email: true
-          },
-          password: {
-            required: true
-          },
-          company: {
-            required: true
-          },
-          'new-password': {
-            required: true,
-            minlength: 6
-          },
-          'confirm-new-password': {
-            required: true,
-            minlength: 6,
-            equalTo: '#account-new-password'
-          },
-          dob: {
-            required: true
-          },
-          phone: {
-            required: true
-          },
-          website: {
-            required: true
-          },
-          'select-country': {
-            required: true
-          }
-        }
-      });
-      $this.on('submit', function (e) {
-        e.preventDefault();
-      });
-    });
-  }
+  // // jQuery Validation
+  // // --------------------------------------------------------------------
+  // if (form.length) {
+  //   form.each(function () {
+  //     var $this = $(this);
+  //
+  //     $this.validate({
+  //       rules: {
+  //         username: {
+  //           required: true
+  //         },
+  //         name: {
+  //           required: true
+  //         },
+  //         email: {
+  //           required: true,
+  //           email: true
+  //         },
+  //         password: {
+  //           required: true
+  //         },
+  //         company: {
+  //           required: true
+  //         },
+  //         'new-password': {
+  //           required: true,
+  //           minlength: 6
+  //         },
+  //         'confirm-new-password': {
+  //           required: true,
+  //           minlength: 6,
+  //           equalTo: '#account-new-password'
+  //         },
+  //         dob: {
+  //           required: true
+  //         },
+  //         phone: {
+  //           required: true
+  //         },
+  //         website: {
+  //           required: true
+  //         },
+  //         'select-country': {
+  //           required: true
+  //         }
+  //       }
+  //     });
+  //     $this.on('submit', function (e) {
+  //       e.preventDefault();
+  //     });
+  //   });
+  // }
 });

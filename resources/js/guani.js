@@ -29,6 +29,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 COMPONENTES PAGINAS EMPRESA INCENTIVADORA
 =============================================*/
 Vue.component('all-companies-incentivadora', require('./guani/pages/incentivadora/AllCompaniesIncen.vue').default);
+Vue.component('profile-admin', require('./guani/pages/profile/Profile.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

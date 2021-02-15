@@ -2016,6 +2016,387 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Profile"
+});
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css":
 /*!*****************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css ***!
@@ -3407,6 +3788,1219 @@ var staticRenderFns = [
         ]
       )
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "row" }, [
+    _c("div", { staticClass: "col-md-3 mb-2 mb-md-0" }, [
+      _c("ul", { staticClass: "nav nav-pills flex-column nav-left" }, [
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link active",
+              attrs: {
+                id: "account-pill-general",
+                "data-toggle": "pill",
+                href: "#account-vertical-general",
+                "aria-expanded": "true"
+              }
+            },
+            [
+              _c(
+                "svg",
+                {
+                  staticClass: "feather feather-user font-medium-3 mr-1",
+                  attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "14",
+                    height: "14",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                [
+                  _c("path", {
+                    attrs: { d: "M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" }
+                  }),
+                  _c("circle", { attrs: { cx: "12", cy: "7", r: "4" } })
+                ]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("General")
+              ])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "account-pill-password",
+                "data-toggle": "pill",
+                href: "#account-vertical-password",
+                "aria-expanded": "false"
+              }
+            },
+            [
+              _c(
+                "svg",
+                {
+                  staticClass: "feather feather-lock font-medium-3 mr-1",
+                  attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "14",
+                    height: "14",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                [
+                  _c("rect", {
+                    attrs: {
+                      x: "3",
+                      y: "11",
+                      width: "18",
+                      height: "11",
+                      rx: "2",
+                      ry: "2"
+                    }
+                  }),
+                  _c("path", { attrs: { d: "M7 11V7a5 5 0 0 1 10 0v4" } })
+                ]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cambiar Contraseña")
+              ])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "account-pill-info",
+                "data-toggle": "pill",
+                href: "#account-vertical-info",
+                "aria-expanded": "false"
+              }
+            },
+            [
+              _c(
+                "svg",
+                {
+                  staticClass: "feather feather-info font-medium-3 mr-1",
+                  attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "14",
+                    height: "14",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                  }
+                },
+                [
+                  _c("circle", { attrs: { cx: "12", cy: "12", r: "10" } }),
+                  _c("line", {
+                    attrs: { x1: "12", y1: "16", x2: "12", y2: "12" }
+                  }),
+                  _c("line", {
+                    attrs: { x1: "12", y1: "8", x2: "12.01", y2: "8" }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Información")
+              ])
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "col-md-9" }, [
+      _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "card-body" }, [
+          _c("div", { staticClass: "tab-content" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "account-vertical-password",
+                  role: "tabpanel",
+                  "aria-labelledby": "account-pill-password",
+                  "aria-expanded": "false"
+                }
+              },
+              [
+                _c(
+                  "form",
+                  {
+                    staticClass: "validate-form",
+                    attrs: { novalidate: "novalidate" }
+                  },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-12 col-sm-6" }, [
+                        _c("div", { staticClass: "form-group" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "account-new-password" } },
+                            [_vm._v("Nueva Contraseña")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "input-group form-password-toggle input-group-merge"
+                            },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "password",
+                                  id: "account-new-password",
+                                  name: "new-password",
+                                  placeholder: "Nueva contraseña"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "input-group-append" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "input-group-text cursor-pointer"
+                                  },
+                                  [
+                                    _c(
+                                      "svg",
+                                      {
+                                        staticClass: "feather feather-eye",
+                                        attrs: {
+                                          xmlns: "http://www.w3.org/2000/svg",
+                                          width: "14",
+                                          height: "14",
+                                          viewBox: "0 0 24 24",
+                                          fill: "none",
+                                          stroke: "currentColor",
+                                          "stroke-width": "2",
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round"
+                                        }
+                                      },
+                                      [
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                                          }
+                                        }),
+                                        _c("circle", {
+                                          attrs: { cx: "12", cy: "12", r: "3" }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-12 col-sm-6" }, [
+                        _c("div", { staticClass: "form-group" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "account-retype-new-password" } },
+                            [_vm._v("Confirmar Contraseña")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "input-group form-password-toggle input-group-merge"
+                            },
+                            [
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: {
+                                  type: "password",
+                                  id: "account-retype-new-password",
+                                  name: "confirm-new-password",
+                                  placeholder: "Confirmar contraseña"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "input-group-append" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "input-group-text cursor-pointer"
+                                  },
+                                  [
+                                    _c(
+                                      "svg",
+                                      {
+                                        staticClass: "feather feather-eye",
+                                        attrs: {
+                                          xmlns: "http://www.w3.org/2000/svg",
+                                          width: "14",
+                                          height: "14",
+                                          viewBox: "0 0 24 24",
+                                          fill: "none",
+                                          stroke: "currentColor",
+                                          "stroke-width": "2",
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round"
+                                        }
+                                      },
+                                      [
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
+                                          }
+                                        }),
+                                        _c("circle", {
+                                          attrs: { cx: "12", cy: "12", r: "3" }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(1)
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "account-vertical-social",
+                  role: "tabpanel",
+                  "aria-labelledby": "account-pill-social",
+                  "aria-expanded": "false"
+                }
+              },
+              [
+                _c(
+                  "form",
+                  {
+                    staticClass: "validate-form",
+                    attrs: { novalidate: "novalidate" }
+                  },
+                  [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-12" }, [
+                        _c(
+                          "div",
+                          { staticClass: "d-flex align-items-center mb-2" },
+                          [
+                            _c(
+                              "svg",
+                              {
+                                staticClass:
+                                  "feather feather-link font-medium-3",
+                                attrs: {
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  width: "14",
+                                  height: "14",
+                                  viewBox: "0 0 24 24",
+                                  fill: "none",
+                                  stroke: "currentColor",
+                                  "stroke-width": "2",
+                                  "stroke-linecap": "round",
+                                  "stroke-linejoin": "round"
+                                }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    d:
+                                      "M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                                  }
+                                }),
+                                _c("path", {
+                                  attrs: {
+                                    d:
+                                      "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                                  }
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("h4", { staticClass: "mb-0 ml-75" }, [
+                              _vm._v("Social Links")
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(3),
+                      _vm._v(" "),
+                      _vm._m(4),
+                      _vm._v(" "),
+                      _vm._m(5),
+                      _vm._v(" "),
+                      _vm._m(6),
+                      _vm._v(" "),
+                      _vm._m(7),
+                      _vm._v(" "),
+                      _vm._m(8),
+                      _vm._v(" "),
+                      _vm._m(9),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-12 mt-1" }, [
+                        _c(
+                          "div",
+                          { staticClass: "d-flex align-items-center mb-3" },
+                          [
+                            _c(
+                              "svg",
+                              {
+                                staticClass:
+                                  "feather feather-user font-medium-3",
+                                attrs: {
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  width: "14",
+                                  height: "14",
+                                  viewBox: "0 0 24 24",
+                                  fill: "none",
+                                  stroke: "currentColor",
+                                  "stroke-width": "2",
+                                  "stroke-linecap": "round",
+                                  "stroke-linejoin": "round"
+                                }
+                              },
+                              [
+                                _c("path", {
+                                  attrs: {
+                                    d:
+                                      "M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                                  }
+                                }),
+                                _c("circle", {
+                                  attrs: { cx: "12", cy: "7", r: "4" }
+                                })
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("h4", { staticClass: "mb-0 ml-75" }, [
+                              _vm._v("Profile Connections")
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _vm._m(10)
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(11)
+                    ])
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(12)
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane active",
+        attrs: {
+          role: "tabpanel",
+          id: "account-vertical-general",
+          "aria-labelledby": "account-pill-general",
+          "aria-expanded": "true"
+        }
+      },
+      [
+        _c("h1", { staticClass: "pb-1" }, [_vm._v("General")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "media" }, [
+          _c(
+            "a",
+            { staticClass: "mr-25", attrs: { href: "javascript:void(0);" } },
+            [
+              _c("img", {
+                staticClass: "rounded mr-50",
+                attrs: {
+                  src: "/app-assets/images/portrait/small/avatar-s-11.jpg",
+                  id: "account-upload-img",
+                  alt: "profile image",
+                  height: "80",
+                  width: "80"
+                }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "media-body mt-75 ml-1" }, [
+            _c(
+              "label",
+              {
+                staticClass:
+                  "btn btn-sm btn-primary mb-75 mr-75 waves-effect waves-float waves-light",
+                attrs: { for: "account-upload" }
+              },
+              [_vm._v("Cambiar Imagen")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              attrs: {
+                type: "file",
+                id: "account-upload",
+                hidden: "",
+                accept: "image/*"
+              }
+            }),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-sm btn-outline-secondary mb-75 waves-effect"
+              },
+              [_vm._v("Por defecto")]
+            ),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("JPG, GIF o PNG permitidos. Tamaño máximo de 800kB")
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "form",
+          {
+            staticClass: "validate-form mt-2",
+            attrs: { novalidate: "novalidate" }
+          },
+          [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-username" } }, [
+                    _vm._v("Nombres")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "account-username",
+                      name: "username",
+                      placeholder: "Nombres",
+                      value: "johndoe"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-name" } }, [
+                    _vm._v("Apellidos")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "account-name",
+                      name: "name",
+                      placeholder: "Apellidos",
+                      value: "John Doe"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-e-mail" } }, [
+                    _vm._v("Correo Electrónico")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "email",
+                      id: "account-e-mail",
+                      name: "email",
+                      placeholder: "Correo electrónico",
+                      value: "granger007@hogward.com"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-company" } }, [
+                    _vm._v("Empresa")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "account-company",
+                      name: "company",
+                      placeholder: "Empresa",
+                      value: "Crystal Technologies"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary mt-2 mr-1 waves-effect waves-float waves-light",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Guardar Cambios")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary mt-2 waves-effect",
+                    attrs: { type: "reset" }
+                  },
+                  [_vm._v("Cancelar")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light",
+          attrs: { type: "submit" }
+        },
+        [_vm._v("Save changes")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-outline-secondary mt-1 waves-effect",
+          attrs: { type: "reset" }
+        },
+        [_vm._v("Cancel")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane fade",
+        attrs: {
+          id: "account-vertical-info",
+          role: "tabpanel",
+          "aria-labelledby": "account-pill-info",
+          "aria-expanded": "false"
+        }
+      },
+      [
+        _c(
+          "form",
+          { staticClass: "validate-form", attrs: { novalidate: "novalidate" } },
+          [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "accountTextarea" } }, [
+                    _vm._v("Acerca de ti")
+                  ]),
+                  _vm._v(" "),
+                  _c("textarea", {
+                    staticClass: "form-control",
+                    attrs: {
+                      id: "accountTextarea",
+                      rows: "4",
+                      placeholder: "Cuentanos quien eres..."
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-birth-date" } }, [
+                    _vm._v("Fecha de Nacimiento")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control flatpickr flatpickr-input",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Fecha de Nacimiento",
+                      id: "account-birth-date",
+                      name: "dob",
+                      readonly: "readonly"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "accountSelect" } }, [
+                    _vm._v("Pais")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "select",
+                    {
+                      staticClass: "form-control",
+                      attrs: { id: "accountSelect" }
+                    },
+                    [
+                      _c("option", [_vm._v("USA")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("India")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Canada")])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-website" } }, [
+                    _vm._v("Website")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      name: "website",
+                      id: "account-website",
+                      placeholder: "Tu sitio web"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-phone" } }, [
+                    _vm._v("Teléfono")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "account-phone",
+                      placeholder: "Teléfono",
+                      value: "(+656) 254 2568",
+                      name: "phone"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary mt-1 mr-1 waves-effect waves-float waves-light",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Guardar Cambios")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary mt-1 waves-effect",
+                    attrs: { type: "reset" }
+                  },
+                  [_vm._v("Cancel")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-twitter" } }, [_vm._v("Twitter")]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "account-twitter",
+            placeholder: "Add link",
+            value: "https://www.twitter.com"
+          }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-facebook" } }, [
+          _vm._v("Facebook")
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "account-facebook",
+            placeholder: "Add link"
+          }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-google" } }, [_vm._v("Google+")]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "text", id: "account-google", placeholder: "Add link" }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-linkedin" } }, [
+          _vm._v("LinkedIn")
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "account-linkedin",
+            placeholder: "Add link",
+            value: "https://www.linkedin.com"
+          }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-instagram" } }, [
+          _vm._v("Instagram")
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            id: "account-instagram",
+            placeholder: "Add link"
+          }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-sm-6" }, [
+      _c("div", { staticClass: "form-group" }, [
+        _c("label", { attrs: { for: "account-quora" } }, [_vm._v("Quora")]),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "text", id: "account-quora", placeholder: "Add link" }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12" }, [
+      _c("hr", { staticClass: "my-2" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6 col-md-3 text-center mb-1" }, [
+        _c("p", { staticClass: "font-weight-bold" }, [_vm._v("Your Twitter")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "avatar mb-1" }, [
+          _c("span", { staticClass: "avatar-content" }, [
+            _c("img", {
+              attrs: {
+                src: "/app-assets/images/avatars/11-small.png",
+                alt: "avatar img",
+                width: "40",
+                height: "40"
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "mb-0" }, [_vm._v("@johndoe")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "javascript:void(0)" } }, [
+          _vm._v("Disconnect")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-6 col-md-3 text-center mb-1" }, [
+        _c("p", { staticClass: "font-weight-bold mb-2" }, [
+          _vm._v("Your Facebook")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-outline-primary waves-effect" }, [
+          _vm._v("Connect")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-6 col-md-3 text-center mb-1" }, [
+        _c("p", { staticClass: "font-weight-bold" }, [_vm._v("Your Google")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "avatar mb-1" }, [
+          _c("span", { staticClass: "avatar-content" }, [
+            _c("img", {
+              attrs: {
+                src: "/app-assets/images/avatars/3-small.png",
+                alt: "avatar img",
+                width: "40",
+                height: "40"
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "mb-0" }, [_vm._v("@luraweber")]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "javascript:void(0)" } }, [
+          _vm._v("Disconnect")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-6 col-md-3 text-center mb-2" }, [
+        _c("p", { staticClass: "font-weight-bold mb-1" }, [
+          _vm._v("Your GitHub")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-outline-primary waves-effect" }, [
+          _vm._v("Connect")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light",
+          attrs: { type: "submit" }
+        },
+        [_vm._v("Save changes")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-outline-secondary mt-1 waves-effect",
+          attrs: { type: "reset" }
+        },
+        [_vm._v("Cancel")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane fade",
+        attrs: {
+          id: "account-vertical-notifications",
+          role: "tabpanel",
+          "aria-labelledby": "account-pill-notifications",
+          "aria-expanded": "false"
+        }
+      },
+      [
+        _c("div", { staticClass: "row" }, [
+          _c("h6", { staticClass: "section-label mx-1 mb-2" }, [
+            _vm._v("Activity")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mb-2" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", checked: "", id: "accountSwitch1" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch1" }
+                },
+                [
+                  _vm._v(
+                    "\n                                            Email me when someone comments onmy article\n                                        "
+                  )
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mb-2" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", checked: "", id: "accountSwitch2" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch2" }
+                },
+                [
+                  _vm._v(
+                    "\n                                            Email me when someone answers on my form\n                                        "
+                  )
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mb-2" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", id: "accountSwitch3" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch3" }
+                },
+                [_vm._v("Email me hen someone follows me")]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("h6", { staticClass: "section-label mx-1 mt-2" }, [
+            _vm._v("Application")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mt-1 mb-2" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", checked: "", id: "accountSwitch4" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch4" }
+                },
+                [_vm._v("News and announcements")]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mb-2" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", checked: "", id: "accountSwitch6" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch6" }
+                },
+                [_vm._v("Weekly product updates")]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 mb-75" }, [
+            _c("div", { staticClass: "custom-control custom-switch" }, [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: { type: "checkbox", id: "accountSwitch5" }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                {
+                  staticClass: "custom-control-label",
+                  attrs: { for: "accountSwitch5" }
+                },
+                [_vm._v("Weekly blog digest")]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12" }, [
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-primary mt-2 mr-1 waves-effect waves-float waves-light",
+                attrs: { type: "submit" }
+              },
+              [_vm._v("Save changes")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-outline-secondary mt-2 waves-effect",
+                attrs: { type: "reset" }
+              },
+              [_vm._v("Cancel")]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -15697,6 +17291,7 @@ COMPONENTES PAGINAS EMPRESA INCENTIVADORA
 =============================================*/
 
 Vue.component('all-companies-incentivadora', __webpack_require__(/*! ./guani/pages/incentivadora/AllCompaniesIncen.vue */ "./resources/js/guani/pages/incentivadora/AllCompaniesIncen.vue")["default"]);
+Vue.component('profile-admin', __webpack_require__(/*! ./guani/pages/profile/Profile.vue */ "./resources/js/guani/pages/profile/Profile.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -15773,6 +17368,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AllCompaniesIncen_vue_vue_type_template_id_4c710525_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AllCompaniesIncen_vue_vue_type_template_id_4c710525_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/guani/pages/profile/Profile.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/guani/pages/profile/Profile.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Profile.vue?vue&type=template&id=03e46f29&scoped=true& */ "./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true&");
+/* harmony import */ var _Profile_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Profile.vue?vue&type=script&lang=js& */ "./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Profile_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "03e46f29",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/guani/pages/profile/Profile.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Profile.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/guani/pages/profile/Profile.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true& ***!
+  \*************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Profile.vue?vue&type=template&id=03e46f29&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/guani/pages/profile/Profile.vue?vue&type=template&id=03e46f29&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Profile_vue_vue_type_template_id_03e46f29_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

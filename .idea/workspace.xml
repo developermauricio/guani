@@ -20,38 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="667b0f85-b3b5-49ff-a9c2-7726dfa432ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/guani/pages/incentivadora/AllCompaniesIncen.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/guani/emincentivadora/allemincentivadora.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/guani/pages/profile/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/guani/profile/profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyIncentivadoraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyIncentivadoraController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-assets/css/themes/dark-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/css/themes/dark-layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-assets/fonts/font-awesome/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/fonts/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-assets/vendors/js/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/vendors/js/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-assets/vendors/js/vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/vendors/js/vendors.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/guani.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emincentivadora/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emincentivadora/dashboard/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/guani/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guani/dashboard/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/guani/emincentivadora/createemincentivadora.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guani/emincentivadora/createemincentivadora.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/js/scripts/pages/page-account-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/js/scripts/pages/page-account-settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/guani.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/guani.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/guani.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/guani.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/headnavigation/guani.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/headnavigation/guani.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/guani.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/guani.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/incentivadora.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/incentivadora.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -231,7 +209,7 @@
       <workItem from="1613261834717" duration="5324000" />
       <workItem from="1613274768906" duration="8055000" />
       <workItem from="1613306753899" duration="17188000" />
-      <workItem from="1613395071612" duration="8730000" />
+      <workItem from="1613395071612" duration="11412000" />
     </task>
     <servers />
   </component>
@@ -254,10 +232,14 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613323501286" />
-    <state x="2161" y="448" key="NewPhpFileDialog" timestamp="1613395990361">
+    <state x="2083" y="268" key="NewPhpClassDialog" timestamp="1613416670653">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2161" y="448" key="NewPhpFileDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613395990361" />
+    <state x="2083" y="268" key="NewPhpClassDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613416670653" />
+    <state x="2161" y="448" key="NewPhpFileDialog" timestamp="1613416682433">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2161" y="448" key="NewPhpFileDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613416682433" />
     <state x="541" y="373" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1613282139653" />
     <state x="1909" y="190" key="SettingsEditor" timestamp="1613395932374">
       <screen x="1440" y="0" width="1920" height="1080" />

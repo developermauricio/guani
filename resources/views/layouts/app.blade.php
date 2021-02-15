@@ -39,6 +39,7 @@
 
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/pages/page-profile.css">
     <!-- END: Page CSS-->
     <!-- ESTILOS PROPIOS-->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -137,6 +138,8 @@
 <!-- BEGIN: Page JS-->
 <script src="/app-assets/js/scripts/tables/table-datatables-advanced.js"></script>
 <script src="/app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+<script src="/app-assets/js/scripts/pages/page-profile.js"></script>
+<script src="/app-assets/js/scripts/pages/page-account-settings.js"></script>
 <!-- END: Page JS-->
 
 <script>
