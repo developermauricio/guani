@@ -51,7 +51,6 @@
 <!-- BEGIN: Content-->
 <div class="guani-content background-auth content">
     <div class="content-overlay"></div>
-    <div class="header-navbar-shadow"></div>
     <div class="content-wrapper">
         <div class="content-header row">
         </div>
@@ -61,9 +60,9 @@
                     <!-- Forgot Password v1 -->
                     <div class="mb-0">
                         <div class="">
-                            @if($currentWebsiteIncentivadora)
+                            @if($currentWebsite)
                                 <a href="javascript:void(0);" class="brand-logo">
-                                    <img width="300" height="90" src="{{$currentWebsiteIncentivadora->logo}}" alt="">
+                                    <img src="{{$currentWebsite->logo}}" class="img-thumbnail-auth" alt="Cinque Terre" width="290" height="20">
                                 </a>
                             @else
                                 <a href="javascript:void(0);" class="brand-logo">
@@ -98,7 +97,7 @@
                             <p class="text-center mt-2">
                                 <a href="{{ route('login') }}"> <i data-feather="chevron-left"></i> Volver al login </a>
                             </p>
-                                @if($currentWebsiteIncentivadora)
+                                @if($currentWebsite)
                                     <div class="brand-logo pt-2">
                                         <img width="80" height="34" src="/images/logo-auth.png" alt="">
                                     </div>

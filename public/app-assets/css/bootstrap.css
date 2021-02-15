@@ -453,7 +453,12 @@ mark, .mark {
   max-width : 100%;
   height : auto;
 }
-
+.img-thumbnail-auth {
+    padding : 0.25rem;
+    border-radius : 0.357rem;
+    max-width : 100%;
+    height : 100%;
+}
 .figure {
   display : inline-block;
 }

@@ -222,7 +222,7 @@
                             class="avatar-status-online"></span></span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a
-                        class="dropdown-item" href="{{ route('admin.index.perfil') }}"><i class="mr-50" data-feather="user"></i>
+                        class="dropdown-item {{request()->is('profile-guani') ? 'active' : '' }}" href="{{ route('admin.index.perfil') }}"><i class="mr-50" data-feather="user"></i>
                         Perfil</a>
                     {{--                    <a class="dropdown-item" href="guani-email.html">--}}
                     {{--                        <i class="mr-50" data-feather="mail"></i> Inbox</a><a--}}

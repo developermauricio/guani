@@ -133,8 +133,8 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light">Save changes</button>
-                                        <button type="reset" class="btn btn-outline-secondary mt-1 waves-effect">Cancel</button>
+                                        <button type="submit" class="btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light">Guardar Cambios</button>
+                                        <button type="reset" class="btn btn-outline-secondary mt-1 waves-effect">Cancelar</button>
                                     </div>
                                 </div>
                             </form>
@@ -183,7 +183,7 @@
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary mt-1 mr-1 waves-effect waves-float waves-light">Guardar Cambios</button>
-                                        <button type="reset" class="btn btn-outline-secondary mt-1 waves-effect">Cancel</button>
+                                        <button type="reset" class="btn btn-outline-secondary mt-1 waves-effect">Cancelar</button>
                                     </div>
                                 </div>
                             </form>

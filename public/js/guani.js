@@ -1969,42 +1969,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AllCompaniesIncen",
   methods: {
@@ -3620,173 +3584,7 @@ var staticRenderFns = [
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "modal modal-slide-in fade",
-          attrs: { id: "modals-slide-in" }
-        },
-        [
-          _c("div", { staticClass: "modal-dialog sidebar-sm" }, [
-            _c("form", { staticClass: "add-new-record modal-content pt-0" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "close",
-                  attrs: {
-                    type: "button",
-                    "data-dismiss": "modal",
-                    "aria-label": "Close"
-                  }
-                },
-                [_vm._v("×")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-header mb-1" }, [
-                _c(
-                  "h5",
-                  {
-                    staticClass: "modal-title",
-                    attrs: { id: "exampleModalLabel" }
-                  },
-                  [_vm._v("New Record")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-body flex-grow-1" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-fullname" }
-                    },
-                    [_vm._v("Full Name")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-full-name",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-fullname",
-                      placeholder: "John Doe",
-                      "aria-label": "John Doe"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-post" }
-                    },
-                    [_vm._v("Post")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-post",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-post",
-                      placeholder: "Web Developer",
-                      "aria-label": "Web Developer"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-email" }
-                    },
-                    [_vm._v("Email")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-email",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-email",
-                      placeholder: "john.doe@example.com",
-                      "aria-label": "john.doe@example.com"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("small", { staticClass: "form-text text-muted" }, [
-                    _vm._v(" You can use letters, numbers & periods ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-date" }
-                    },
-                    [_vm._v("Joining Date")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-date",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-date",
-                      placeholder: "MM/DD/YYYY",
-                      "aria-label": "MM/DD/YYYY"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group mb-4" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-salary" }
-                    },
-                    [_vm._v("Salary")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-salary",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-salary",
-                      placeholder: "$12000",
-                      "aria-label": "$12000"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-primary data-submit mr-1",
-                    attrs: { type: "button" }
-                  },
-                  [_vm._v("Submit")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-outline-secondary",
-                    attrs: { type: "reset", "data-dismiss": "modal" }
-                  },
-                  [_vm._v("Cancel")]
-                )
-              ])
-            ])
-          ])
-        ]
-      )
+      ])
     ])
   }
 ]
@@ -4462,7 +4260,7 @@ var staticRenderFns = [
             "btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light",
           attrs: { type: "submit" }
         },
-        [_vm._v("Save changes")]
+        [_vm._v("Guardar Cambios")]
       ),
       _vm._v(" "),
       _c(
@@ -4471,7 +4269,7 @@ var staticRenderFns = [
           staticClass: "btn btn-outline-secondary mt-1 waves-effect",
           attrs: { type: "reset" }
         },
-        [_vm._v("Cancel")]
+        [_vm._v("Cancelar")]
       )
     ])
   },
@@ -4609,7 +4407,7 @@ var staticRenderFns = [
                     staticClass: "btn btn-outline-secondary mt-1 waves-effect",
                     attrs: { type: "reset" }
                   },
-                  [_vm._v("Cancel")]
+                  [_vm._v("Cancelar")]
                 )
               ])
             ])
