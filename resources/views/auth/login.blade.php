@@ -9,7 +9,7 @@
     <meta name="description"
           content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords"
-          content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+          content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web guani">
     <meta name="author" content="PIXINVENT">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
@@ -50,7 +50,7 @@
 <body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click"
       data-menu="vertical-menu-modern" data-col="blank-page">
 <!-- BEGIN: Content-->
-<div class="app-content background-auth content">
+<div class="guani-content background-auth content">
     <div class="content-overlay"></div>
     <div class="header-navbar-shadow"></div>
     <div class="content-wrapper">
@@ -202,7 +202,7 @@
 </html>
 
 
-{{--@extends('layouts.app')--}}
+{{--@extends('layouts.guani')--}}
 
 {{--@section('content')--}}
 {{--<div class="container">--}}
