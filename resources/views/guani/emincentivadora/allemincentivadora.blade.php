@@ -1,13 +1,15 @@
-@extends('layouts.guani')
+@extends('layouts.app')
 
 @section('header')
     <div class="content-header-left col-md-9 col-12 mb-2">
         <div class="row breadcrumbs-top">
             <div class="col-12">
-                <h2 class="content-header-title float-left mb-0">Dashboard</h2>
+                <h2 class="content-header-title float-left mb-0">Empresas Incentivadoras</h2>
                 <div class="breadcrumb-wrapper">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Panel Informativo</a>
+                        <li class="breadcrumb-item"><a href="#">Empresas Incentivadoras</a>
+                        </li>
+                        <li class="breadcrumb-item active">Todas las empresas
                         </li>
                     </ol>
                 </div>
@@ -41,7 +43,7 @@
 
     <div class="row">
         <div class="col-12">
-            <h1>Bienvenido a tu empresa incentivadora</h1>
+            <all-companies-incentivadora></all-companies-incentivadora>
         </div>
     </div>
 

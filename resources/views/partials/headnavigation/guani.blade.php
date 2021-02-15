@@ -8,18 +8,18 @@
                 </li>
             </ul>
             {{--            <ul class="nav navbar-nav bookmark-icons">--}}
-            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html"--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="guani-email.html"--}}
             {{--                                                          data-toggle="tooltip" data-placement="top"--}}
             {{--                                                          title="Email"><i class="ficon"--}}
             {{--                                                                           data-feather="mail"></i></a></li>--}}
-            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html"--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="guani-chat.html"--}}
             {{--                                                          data-toggle="tooltip" data-placement="top" title="Chat"><i--}}
             {{--                            class="ficon" data-feather="message-square"></i></a></li>--}}
-            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html"--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="guani-calendar.html"--}}
             {{--                                                          data-toggle="tooltip" data-placement="top"--}}
             {{--                                                          title="Calendar"><i class="ficon"--}}
             {{--                                                                              data-feather="calendar"></i></a></li>--}}
-            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html"--}}
+            {{--                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="guani-todo.html"--}}
             {{--                                                          data-toggle="tooltip" data-placement="top" title="Todo"><i--}}
             {{--                            class="ficon" data-feather="check-square"></i></a></li>--}}
             {{--            </ul>--}}
@@ -83,12 +83,12 @@
             {{--                    </li>--}}
             {{--                    <li class="scrollable-container media-list">--}}
             {{--                        <div class="media align-items-center"><img class="d-block rounded mr-1"--}}
-            {{--                                                                   src="/app-assets/images/pages/eCommerce/1.png"--}}
+            {{--                                                                   src="/guani-assets/images/pages/eCommerce/1.png"--}}
             {{--                                                                   alt="donuts" width="62">--}}
             {{--                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>--}}
             {{--                                <div class="media-heading">--}}
             {{--                                    <h6 class="cart-item-title"><a class="text-body"--}}
-            {{--                                                                   href="app-ecommerce-details.html"> Apple watch--}}
+            {{--                                                                   href="guani-ecommerce-details.html"> Apple watch--}}
             {{--                                            5</a></h6><small class="cart-item-by">By Apple</small>--}}
             {{--                                </div>--}}
             {{--                                <div class="cart-item-qty">--}}
@@ -100,12 +100,12 @@
             {{--                            </div>--}}
             {{--                        </div>--}}
             {{--                        <div class="media align-items-center"><img class="d-block rounded mr-1"--}}
-            {{--                                                                   src="/app-assets/images/pages/eCommerce/7.png"--}}
+            {{--                                                                   src="/guani-assets/images/pages/eCommerce/7.png"--}}
             {{--                                                                   alt="donuts" width="62">--}}
             {{--                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>--}}
             {{--                                <div class="media-heading">--}}
             {{--                                    <h6 class="cart-item-title"><a class="text-body"--}}
-            {{--                                                                   href="app-ecommerce-details.html"> Google Home--}}
+            {{--                                                                   href="guani-ecommerce-details.html"> Google Home--}}
             {{--                                            Mini</a></h6><small class="cart-item-by">By Google</small>--}}
             {{--                                </div>--}}
             {{--                                <div class="cart-item-qty">--}}
@@ -117,12 +117,12 @@
             {{--                            </div>--}}
             {{--                        </div>--}}
             {{--                        <div class="media align-items-center"><img class="d-block rounded mr-1"--}}
-            {{--                                                                   src="/app-assets/images/pages/eCommerce/2.png"--}}
+            {{--                                                                   src="/guani-assets/images/pages/eCommerce/2.png"--}}
             {{--                                                                   alt="donuts" width="62">--}}
             {{--                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>--}}
             {{--                                <div class="media-heading">--}}
             {{--                                    <h6 class="cart-item-title"><a class="text-body"--}}
-            {{--                                                                   href="app-ecommerce-details.html"> iPhone 11--}}
+            {{--                                                                   href="guani-ecommerce-details.html"> iPhone 11--}}
             {{--                                            Pro</a></h6><small class="cart-item-by">By Apple</small>--}}
             {{--                                </div>--}}
             {{--                                <div class="cart-item-qty">--}}
@@ -134,12 +134,12 @@
             {{--                            </div>--}}
             {{--                        </div>--}}
             {{--                        <div class="media align-items-center"><img class="d-block rounded mr-1"--}}
-            {{--                                                                   src="/app-assets/images/pages/eCommerce/3.png"--}}
+            {{--                                                                   src="/guani-assets/images/pages/eCommerce/3.png"--}}
             {{--                                                                   alt="donuts" width="62">--}}
             {{--                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>--}}
             {{--                                <div class="media-heading">--}}
             {{--                                    <h6 class="cart-item-title"><a class="text-body"--}}
-            {{--                                                                   href="app-ecommerce-details.html"> iMac Pro</a>--}}
+            {{--                                                                   href="guani-ecommerce-details.html"> iMac Pro</a>--}}
             {{--                                    </h6><small class="cart-item-by">By Apple</small>--}}
             {{--                                </div>--}}
             {{--                                <div class="cart-item-qty">--}}
@@ -151,12 +151,12 @@
             {{--                            </div>--}}
             {{--                        </div>--}}
             {{--                        <div class="media align-items-center"><img class="d-block rounded mr-1"--}}
-            {{--                                                                   src="/app-assets/images/pages/eCommerce/5.png"--}}
+            {{--                                                                   src="/guani-assets/images/pages/eCommerce/5.png"--}}
             {{--                                                                   alt="donuts" width="62">--}}
             {{--                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>--}}
             {{--                                <div class="media-heading">--}}
             {{--                                    <h6 class="cart-item-title"><a class="text-body"--}}
-            {{--                                                                   href="app-ecommerce-details.html"> MacBook--}}
+            {{--                                                                   href="guani-ecommerce-details.html"> MacBook--}}
             {{--                                            Pro</a></h6><small class="cart-item-by">By Apple</small>--}}
             {{--                                </div>--}}
             {{--                                <div class="cart-item-qty">--}}
@@ -173,7 +173,7 @@
             {{--                            <h6 class="font-weight-bolder mb-0">Total:</h6>--}}
             {{--                            <h6 class="text-primary font-weight-bolder mb-0">$10,999.00</h6>--}}
             {{--                        </div>--}}
-            {{--                        <a class="btn btn-primary btn-block" href="app-ecommerce-checkout.html">Checkout</a>--}}
+            {{--                        <a class="btn btn-primary btn-block" href="guani-ecommerce-checkout.html">Checkout</a>--}}
             {{--                    </li>--}}
             {{--                </ul>--}}
             {{--            </li>--}}
@@ -224,10 +224,10 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user"><a
                         class="dropdown-item" href="page-profile.html"><i class="mr-50" data-feather="user"></i>
                         Perfil</a>
-                    {{--                    <a class="dropdown-item" href="app-email.html">--}}
+                    {{--                    <a class="dropdown-item" href="guani-email.html">--}}
                     {{--                        <i class="mr-50" data-feather="mail"></i> Inbox</a><a--}}
-                    {{--                        class="dropdown-item" href="app-todo.html"><i class="mr-50" data-feather="check-square"></i>--}}
-                    {{--                        Task</a><a class="dropdown-item" href="app-chat.html"><i class="mr-50"--}}
+                    {{--                        class="dropdown-item" href="guani-todo.html"><i class="mr-50" data-feather="check-square"></i>--}}
+                    {{--                        Task</a><a class="dropdown-item" href="guani-chat.html"><i class="mr-50"--}}
                     {{--                                                                                 data-feather="message-square"></i>--}}
                     {{--                        Chats</a>--}}
                     <div class="dropdown-divider"></div>

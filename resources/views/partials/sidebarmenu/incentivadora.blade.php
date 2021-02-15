@@ -40,15 +40,15 @@
             <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
                         class="menu-title text-truncate text-background-menu-black" data-i18n="User">Administrar Empresa</span></a>
                 <ul class="menu-content menu-content-background-black">
-                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="app-user-list.html"><i
+                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas Hijas</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
+                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Empresa Hija</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
+                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="View">Empleados</span></a>
                     </li>
@@ -66,11 +66,11 @@
             <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='box'></i><span
                         class="menu-title text-truncate text-background-menu-black" data-i18n="User">Premios</span></a>
                 <ul class="menu-content menu-content-background-black">
-                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="app-user-list.html"><i
+                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="List">Todos los Premios</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
+                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Premio</span></a>
                     </li>
@@ -82,11 +82,11 @@
             <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='users'></i><span
                         class="menu-title text-truncate text-background-menu-black" data-i18n="User">Administrar Usuarios</span></a>
                 <ul class="menu-content menu-content-background-black">
-                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="app-user-list.html"><i
+                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="List">Todos los Usuarios</span></a>
                     </li>
-                    <li><a class="d-flex align-items-center" href="app-user-view.html"><i
+                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
                                 data-feather="circle"></i><span
                                 class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Usuario</span></a>
                     </li>

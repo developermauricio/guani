@@ -55,4 +55,8 @@ class CompanyIncentivadoraController extends Controller
             dd($exception->getMessage());
         }
     }
+
+    public function allIndex(){
+        return view('guani.emincentivadora.allemincentivadora');
+    }
 }

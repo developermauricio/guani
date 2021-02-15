@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="667b0f85-b3b5-49ff-a9c2-7726dfa432ad" name="Default Changelist" comment="" />
+    <list default="true" id="667b0f85-b3b5-49ff-a9c2-7726dfa432ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/guani/pages/incentivadora/AllCompaniesIncen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/guani/emincentivadora/allemincentivadora.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyIncentivadoraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyIncentivadoraController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/css/themes/dark-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/css/themes/dark-layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/fonts/font-awesome/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/fonts/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/vendors/js/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/vendors/js/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-assets/vendors/js/vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/app-assets/vendors/js/vendors.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/guani.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emincentivadora/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emincentivadora/dashboard/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/guani/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guani/dashboard/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/guani/emincentivadora/createemincentivadora.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guani/emincentivadora/createemincentivadora.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/headnavigation/guani.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/headnavigation/guani.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/guani.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/guani.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/incentivadora.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebarmenu/incentivadora.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +66,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -149,6 +205,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -173,23 +230,39 @@
       <updated>1613261833314</updated>
       <workItem from="1613261834717" duration="5324000" />
       <workItem from="1613274768906" duration="8055000" />
-      <workItem from="1613306753899" duration="16612000" />
+      <workItem from="1613306753899" duration="17188000" />
+      <workItem from="1613395071612" duration="8730000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="2138" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613323501286">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613323501286" />
-    <state x="2161" y="448" key="NewPhpFileDialog" timestamp="1613320230780">
+    <state x="2161" y="448" key="NewPhpFileDialog" timestamp="1613395990361">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2161" y="448" key="NewPhpFileDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613320230780" />
+    <state x="2161" y="448" key="NewPhpFileDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613395990361" />
     <state x="541" y="373" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1613282139653" />
+    <state x="1909" y="190" key="SettingsEditor" timestamp="1613395932374">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1909" y="190" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1613395932374" />
     <state x="2065" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1613322972905">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

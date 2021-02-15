@@ -18,10 +18,19 @@ use Illuminate\Support\Facades\Route;
  */
 Route::group(["middleware" => ["auth", "root"]], function () {
 
+    /*=============================================
+       RUTAS PARA LA EMPRESA INCENTIVADORA
+    =============================================*/
     Route::get('/dashboard', 'Emincentivadora\DashboardController@index')->name('incentivadora.index.dashboard');
+
+    /*=============================================
+        RUTAS PARA LA EMPRESA ADMINISTRADORA
+    =============================================*/
     Route::group(["middleware" => "guani.admin"], function () {
-        Route::get('/create-company-incentivadora', 'CompanyIncentivadoraController@index')->name('admin.index.create.company.incentivadora');
-        Route::post("/company-incentivadora-store", "CompanyIncentivadoraController@storeCompanyIncentivadora")->name("admin.store.company.incentivadora");
+        /* RUTAS PARA EMPRESA INCENTIVADORA DESDE EL ADMIN*/
+        Route::get('/incentivadoras/create-company', 'CompanyIncentivadoraController@index')->name('admin.index.create.company.incentivadora'); //Ruta para la vista CREAR EMPRESA INCENTIVADORA
+        Route::post("/company-incentivadora-store", "CompanyIncentivadoraController@storeCompanyIncentivadora")->name("admin.store.company.incentivadora"); //Ruta para CREAR EMPRESA INCENTIVADORA
+        Route::get('/incentivadoras/all-companies', 'CompanyIncentivadoraController@allIndex')->name('admin.allIndex.companies.incentivadora');//Ruta para la vista EMPRESAS INCENTIVADORAS
     });
 
 });
