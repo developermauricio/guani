@@ -26,6 +26,10 @@
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+
+    <!-- CSS for Wizard -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/forms/select/select2.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -40,7 +44,12 @@
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="/app-assets/css/pages/page-profile.css">
+
+    <!-- CSS for Wizard -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/form-wizard.css">
     <!-- END: Page CSS-->
+
     <!-- ESTILOS PROPIOS-->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <!-- BEGIN: Custom CSS-->
@@ -140,6 +149,12 @@
 <script src="/app-assets/js/scripts/tables/table-datatables-basic.js"></script>
 <script src="/app-assets/js/scripts/pages/page-profile.js"></script>
 <script src="/app-assets/js/scripts/pages/page-account-settings.js"></script>
+
+<!-- Scripts for Wizard -->
+<script src="../../../app-assets/vendors/js/forms/wizard/bs-stepper.min.js"></script>
+<script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+{{-- <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script> --}}
+<script src="../../../app-assets/js/scripts/forms/form-wizard.js"></script>
 <!-- END: Page JS-->
 
 <script>
