@@ -5,15 +5,14 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, HasRoles;
 
-    // Constantes Necesarias
-    const TYPE_ADMIN = 'admin';
-    const TYPE_INCENTIVADORA = 'incentivadora';
-    const TYPE_REDENTORA = 'redentora';
+    const ACTIVE = 1;
+    const INACTIVE = 2;
 
     /**
      * The attributes that are mass assignable.
@@ -21,7 +20,8 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','companytype_id', 'documentype_id',
+        'picture', 'biography', 'phone', 'birthday', 'position_id', 'address', 'document'
     ];
 
     /**
@@ -57,6 +57,6 @@ class User extends Authenticatable
     }
 
     public function isAdmin() {
-        return $this->type === User::TYPE_ADMIN;
+        return $this->type === '1';
     }
 }

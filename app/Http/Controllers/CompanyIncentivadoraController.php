@@ -18,7 +18,7 @@ class CompanyIncentivadoraController extends Controller
     }
 
     public function storeCompanyIncentivadora(Request $request){
-        $fqdn = sprintf('%s.%s', request('fqdn'), env('APP_DOMAIN'));
+        $fqdn = sprintf('%s.%s', request('fqdn'), 'guani.test');
 
         try {
             //DB::beginTransaction();
@@ -27,23 +27,23 @@ class CompanyIncentivadoraController extends Controller
             $user->name = $request->name;
             $user->email = $request->email;
             $user->fqdn = $request->fqdn;
-            $user->type = User::TYPE_REDENTORA;
+            $user->type = '1';
             $user->password = bcrypt("password");
             $user->save();
 
             Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/redentora') );
-//            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/incentivadora') );
+//          Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/incentivadora') );
 
             $website = new Website;
             $website->uuid = $user->fqdn;
-            $website->type = User::TYPE_REDENTORA;
+            $website->type = '1';
             $website->logo = $request->logo;
             app(WebsiteRepository::class)->create($website);
 
             $hostname = new Hostname;
             $hostname->fqdn = $fqdn;
             $hostname->user_id = $user->id;
-            $hostname->type = User::TYPE_REDENTORA;
+            $hostname->type = '2';
             $hostname = app(HostnameRepository::class)->create($hostname);
             app(HostnameRepository::class)->attach($hostname, $website);
 
