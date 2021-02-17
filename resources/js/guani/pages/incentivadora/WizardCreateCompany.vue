@@ -1,16 +1,17 @@
 <template>
-    <div class="row">
+    <div class="row pt-2">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="card">
                 <div class="body">
-                    <form method="post">
+                    <form method="post" class="pt-2 pr-4 pl-4 pb-4">
                         <form-wizard
-                            color="#bb5b92"
+                            color="#F15F7E"
                             error-color="#ff4949"
                             ref="wizard"
-                            title="Datos para la Empresa Incentivadora"
-                            subtitle="Por Favor diligencie todos los datos"
-                            back-button-text="Atras"
+                            shape="tab"
+                            title="Datos para crear empresa incentivadora"
+                            subtitle="Por favor diligencie todos los datos"
+                            back-button-text="Atrás"
                             next-button-text="Siguiente"
                             finish-button-text="Guardar Empresa"
                             @on-change="cambioPagina"
@@ -360,5 +361,10 @@
     .vue-form-wizard .wizard-header {
         border-bottom: 1px dotted #d8d6de;
         margin-bottom: 0.5rem;
+    }
+    .multiselect__option--highlight {
+        background: #172737 !important;
+        outline: none !important;
+        color: #fff;
     }
 </style>

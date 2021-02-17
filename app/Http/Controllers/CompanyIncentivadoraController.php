@@ -27,7 +27,7 @@ class CompanyIncentivadoraController extends Controller
             $user->name = $request->name;
             $user->email = $request->email;
             $user->fqdn = $request->fqdn;
-            $user->type = '1';
+            $user->companytype_id = 2;
             $user->password = bcrypt("password");
             $user->save();
 
@@ -36,14 +36,14 @@ class CompanyIncentivadoraController extends Controller
 
             $website = new Website;
             $website->uuid = $user->fqdn;
-            $website->type = '1';
+            $website->companytype_id = 2;
             $website->logo = $request->logo;
             app(WebsiteRepository::class)->create($website);
 
             $hostname = new Hostname;
             $hostname->fqdn = $fqdn;
             $hostname->user_id = $user->id;
-            $hostname->type = '2';
+            $hostname->type = 2;
             $hostname = app(HostnameRepository::class)->create($hostname);
             app(HostnameRepository::class)->attach($hostname, $website);
 

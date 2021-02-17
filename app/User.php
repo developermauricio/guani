@@ -57,6 +57,6 @@ class User extends Authenticatable
     }
 
     public function isAdmin() {
-        return $this->type === '1';
+        return $this->companytype_id === 1;
     }
 }

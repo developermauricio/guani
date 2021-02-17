@@ -90,7 +90,7 @@
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
-            <div class="content-header row">
+            <div class="content-header row pt-1">
                 @yield('header')
             </div>
             <div class="content-body">

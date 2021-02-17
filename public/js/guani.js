@@ -1984,7 +1984,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 //
 //
 //
-<<<<<<< HEAD
 //
 //
 //
@@ -2031,8 +2030,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 /* import { en, es } from "vuejs-datepicker/dist/locale";
 import Datepicker from "vuejs-datepicker";*/
 
-=======
->>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2482,42 +2479,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AllCompaniesIncen",
   methods: {
@@ -2540,6 +2501,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-multiselect */ "./node_modules/vue-multiselect/dist/vue-multiselect.min.js");
 /* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_multiselect__WEBPACK_IMPORTED_MODULE_0__);
+//
 //
 //
 //
@@ -3372,7 +3334,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.vue-form-wizard .wizard-header {\n    border-bottom: 1px dotted #d8d6de;\n    margin-bottom: 0.5rem;\n}\n", ""]);
+exports.push([module.i, "\n.vue-form-wizard .wizard-header {\n    border-bottom: 1px dotted #d8d6de;\n    margin-bottom: 0.5rem;\n}\n.multiselect__option--highlight {\n    background: #172737 !important;\n    outline: none !important;\n    color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -5059,173 +5021,7 @@ var staticRenderFns = [
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "modal modal-slide-in fade",
-          attrs: { id: "modals-slide-in" }
-        },
-        [
-          _c("div", { staticClass: "modal-dialog sidebar-sm" }, [
-            _c("form", { staticClass: "add-new-record modal-content pt-0" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "close",
-                  attrs: {
-                    type: "button",
-                    "data-dismiss": "modal",
-                    "aria-label": "Close"
-                  }
-                },
-                [_vm._v("×")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-header mb-1" }, [
-                _c(
-                  "h5",
-                  {
-                    staticClass: "modal-title",
-                    attrs: { id: "exampleModalLabel" }
-                  },
-                  [_vm._v("New Record")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-body flex-grow-1" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-fullname" }
-                    },
-                    [_vm._v("Full Name")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-full-name",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-fullname",
-                      placeholder: "John Doe",
-                      "aria-label": "John Doe"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-post" }
-                    },
-                    [_vm._v("Post")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-post",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-post",
-                      placeholder: "Web Developer",
-                      "aria-label": "Web Developer"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-email" }
-                    },
-                    [_vm._v("Email")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-email",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-email",
-                      placeholder: "john.doe@example.com",
-                      "aria-label": "john.doe@example.com"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("small", { staticClass: "form-text text-muted" }, [
-                    _vm._v(" You can use letters, numbers & periods ")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-date" }
-                    },
-                    [_vm._v("Joining Date")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-date",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-date",
-                      placeholder: "MM/DD/YYYY",
-                      "aria-label": "MM/DD/YYYY"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group mb-4" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "basic-icon-default-salary" }
-                    },
-                    [_vm._v("Salary")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control dt-salary",
-                    attrs: {
-                      type: "text",
-                      id: "basic-icon-default-salary",
-                      placeholder: "$12000",
-                      "aria-label": "$12000"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-primary data-submit mr-1",
-                    attrs: { type: "button" }
-                  },
-                  [_vm._v("Submit")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-outline-secondary",
-                    attrs: { type: "reset", "data-dismiss": "modal" }
-                  },
-                  [_vm._v("Cancel")]
-                )
-              ])
-            ])
-          ])
-        ]
-      )
+      ])
     ])
   }
 ]
@@ -5250,24 +5046,25 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row" }, [
+  return _c("div", { staticClass: "row pt-2" }, [
     _c("div", { staticClass: "col-lg-12 col-md-12 col-sm-12" }, [
       _c("div", { staticClass: "card" }, [
         _c("div", { staticClass: "body" }, [
           _c(
             "form",
-            { attrs: { method: "post" } },
+            { staticClass: "pt-2 pr-4 pl-4 pb-4", attrs: { method: "post" } },
             [
               _c(
                 "form-wizard",
                 {
                   ref: "wizard",
                   attrs: {
-                    color: "#bb5b92",
+                    color: "#F15F7E",
                     "error-color": "#ff4949",
-                    title: "Datos para la Empresa Incentivadora",
-                    subtitle: "Por Favor diligencie todos los datos",
-                    "back-button-text": "Atras",
+                    shape: "tab",
+                    title: "Datos para crear empresa incentivadora",
+                    subtitle: "Por favor diligencie todos los datos",
+                    "back-button-text": "Atrás",
                     "next-button-text": "Siguiente",
                     "finish-button-text": "Guardar Empresa"
                   },
@@ -6560,7 +6357,6 @@ var staticRenderFns = [
               _vm._v("JPG, GIF o PNG permitidos. Tamaño máximo de 800kB")
             ])
           ])
-<<<<<<< HEAD
         ]),
         _vm._v(" "),
         _c(
@@ -6685,7 +6481,7 @@ var staticRenderFns = [
             "btn btn-primary mr-1 mt-1 waves-effect waves-float waves-light",
           attrs: { type: "submit" }
         },
-        [_vm._v("Save changes")]
+        [_vm._v("Guardar Cambios")]
       ),
       _vm._v(" "),
       _c(
@@ -6694,7 +6490,7 @@ var staticRenderFns = [
           staticClass: "btn btn-outline-secondary mt-1 waves-effect",
           attrs: { type: "reset" }
         },
-        [_vm._v("Cancel")]
+        [_vm._v("Cancelar")]
       )
     ])
   },
@@ -6832,7 +6628,7 @@ var staticRenderFns = [
                     staticClass: "btn btn-outline-secondary mt-1 waves-effect",
                     attrs: { type: "reset" }
                   },
-                  [_vm._v("Cancel")]
+                  [_vm._v("Cancelar")]
                 )
               ])
             ])
@@ -7058,10 +6854,6 @@ var staticRenderFns = [
         },
         [_vm._v("Cancel")]
       )
-=======
-        ])
-      ])
->>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
     ])
   },
   function() {
@@ -23143,7 +22935,6 @@ function vsInputvue_type_script_lang_js_objectSpread(target) { for (var i = 1; i
         input: function input(evt) {
           _this.$emit('input', evt.target.value);
         },
-<<<<<<< HEAD
         focus: function focus(evt) {
           _this.$emit('focus', evt);
 
@@ -23411,163 +23202,6 @@ var vsIcon_component = normalizeComponent(
   name: 'VsTabs',
   components: {
     vsIcon: vsIcon
-=======
-        [_vm._v("Guardar Cambios")]
-      ),
-      _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticClass: "btn btn-outline-secondary mt-1 waves-effect",
-          attrs: { type: "reset" }
-        },
-        [_vm._v("Cancelar")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "tab-pane fade",
-        attrs: {
-          id: "account-vertical-info",
-          role: "tabpanel",
-          "aria-labelledby": "account-pill-info",
-          "aria-expanded": "false"
-        }
-      },
-      [
-        _c(
-          "form",
-          { staticClass: "validate-form", attrs: { novalidate: "novalidate" } },
-          [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-12" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "accountTextarea" } }, [
-                    _vm._v("Acerca de ti")
-                  ]),
-                  _vm._v(" "),
-                  _c("textarea", {
-                    staticClass: "form-control",
-                    attrs: {
-                      id: "accountTextarea",
-                      rows: "4",
-                      placeholder: "Cuentanos quien eres..."
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-12 col-sm-6" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "account-birth-date" } }, [
-                    _vm._v("Fecha de Nacimiento")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control flatpickr flatpickr-input",
-                    attrs: {
-                      type: "text",
-                      placeholder: "Fecha de Nacimiento",
-                      id: "account-birth-date",
-                      name: "dob",
-                      readonly: "readonly"
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-12 col-sm-6" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "accountSelect" } }, [
-                    _vm._v("Pais")
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "select",
-                    {
-                      staticClass: "form-control",
-                      attrs: { id: "accountSelect" }
-                    },
-                    [
-                      _c("option", [_vm._v("USA")]),
-                      _vm._v(" "),
-                      _c("option", [_vm._v("India")]),
-                      _vm._v(" "),
-                      _c("option", [_vm._v("Canada")])
-                    ]
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-12 col-sm-6" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "account-website" } }, [
-                    _vm._v("Website")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      name: "website",
-                      id: "account-website",
-                      placeholder: "Tu sitio web"
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-12 col-sm-6" }, [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "account-phone" } }, [
-                    _vm._v("Teléfono")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "account-phone",
-                      placeholder: "Teléfono",
-                      value: "(+656) 254 2568",
-                      name: "phone"
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-12" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass:
-                      "btn btn-primary mt-1 mr-1 waves-effect waves-float waves-light",
-                    attrs: { type: "submit" }
-                  },
-                  [_vm._v("Guardar Cambios")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-outline-secondary mt-1 waves-effect",
-                    attrs: { type: "reset" }
-                  },
-                  [_vm._v("Cancelar")]
-                )
-              ])
-            ])
-          ]
-        )
-      ]
-    )
->>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
   },
   props: {
     value: {
@@ -37051,8 +36685,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/rodinson/Documentos/project-Laravel/guani/resources/js/guani.js */"./resources/js/guani.js");
-module.exports = __webpack_require__(/*! /home/rodinson/Documentos/project-Laravel/guani/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/js/guani.js */"./resources/js/guani.js");
+module.exports = __webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
