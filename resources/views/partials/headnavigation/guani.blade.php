@@ -193,7 +193,7 @@
                             <div class="media d-flex align-items-start">
                                 <div class="media-left">
                                     <div class="avatar"><img
-                                            src="/app-assets/images/portrait/small/avatar-s-15.jpg"
+                                            src="{{ auth()->user()->picture }}"
                                             alt="avatar" width="32" height="32"></div>
                                 </div>
                                 <div class="media-body">
@@ -214,10 +214,10 @@
                                                            data-toggle="dropdown" aria-haspopup="true"
                                                            aria-expanded="false">
                     <div class="user-nav d-sm-flex d-none"><span
-                            class="user-name font-weight-bolder">John Doe</span><span
-                            class="user-status">Admin</span></div>
+                            class="user-name font-weight-bolder">{{ auth()->user()->name }} {{ auth()->user()->last_name }}</span><span
+                            class="user-status">{{ auth()->user()->roles->first()->name }}</span></div>
                     <span class="avatar"><img class="round"
-                                              src="/app-assets/images/portrait/small/avatar-s-11.jpg"
+                                              src="{{ auth()->user()->picture }}"
                                               alt="avatar" height="40" width="40"><span
                             class="avatar-status-online"></span></span>
                 </a>

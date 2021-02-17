@@ -91,7 +91,8 @@ class DatabaseSeeder extends Seeder
           CREAMOS EL ADMINISTRADOR DEL SISTEMA
         =============================================*/
         factory(\App\User::class, 1)->create([
-            'name' => 'admin',
+            'name' => 'Felipe',
+            'last_name' => 'Gonzales',
             'email' => 'admin@admin.co',
             'companytype_id' => 1,
             'password' => bcrypt('password')
