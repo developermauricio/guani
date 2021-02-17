@@ -52,19 +52,18 @@
 <!-- BEGIN: Content-->
 <div class="guani-content background-auth content">
     <div class="content-overlay"></div>
-    <div class="header-navbar-shadow"></div>
     <div class="content-wrapper">
         <div class="content-header row">
         </div>
         <div class="content-body">
             <div class="auth-wrapper auth-v1 px-2">
-                <div class="py-2">
+                <div class="py-2" style="width: 24rem;">
                     <!-- Login v1 -->
                     <div class="">
                         <div class="">
-                            @if($currentWebsiteIncentivadora)
+                            @if($currentWebsite)
                                 <a href="javascript:void(0);" class="brand-logo">
-                                    <img width="300" height="90" src="{{$currentWebsiteIncentivadora->logo}}" alt="">
+                                    <img src="{{$currentWebsite->logo}}" class="img-thumbnail-auth" alt="Cinque Terre" width="290" height="20">
                                 </a>
                             @else
                                 <a href="javascript:void(0);" class="brand-logo">
@@ -107,7 +106,7 @@
                                             <span class="input-group-text cursor-pointer"><i
                                                     data-feather="eye"></i></span>
                                         </div>
-                                        @error('password')--}}
+                                        @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
@@ -132,7 +131,7 @@
                                     <span style="color: #F15F7E">Contáctanos</span>
                                 </a>
                             </p>
-                            @if($currentWebsiteIncentivadora)
+                            @if($currentWebsite)
                                 <div class="brand-logo pt-2">
                                     <img width="80" height="34" src="/images/logo-auth.png" alt="">
                                 </div>

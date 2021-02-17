@@ -25,17 +25,11 @@ class AuthServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerPolicies();
-        view()->share('mauro', 'hola mao');
         $hostname = app(Environment::class)->hostname();
         if ($hostname){
-            view()->share('currentWebsiteIncentivadora', $hostname->website);
+            view()->share('currentWebsite', $hostname->website);
         }else{
-            view()->share('currentWebsiteIncentivadora', null);
-        }
-        if ($hostname){
-            view()->share('currentWebsiteRedentora', $hostname->website);
-        }else{
-            view()->share('currentWebsiteRedentora', null);
+            view()->share('currentWebsite', null);
         }
     }
 }

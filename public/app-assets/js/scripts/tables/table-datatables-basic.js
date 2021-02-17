@@ -175,11 +175,11 @@ $(function () {
         {
           extend: 'collection',
           className: 'btn btn-outline-secondary dropdown-toggle mr-2',
-          text: feather.icons['share'].toSvg({ class: 'font-small-4 mr-50' }) + 'Export',
+          text: feather.icons['share'].toSvg({ class: 'font-small-4 mr-50' }) + 'Exportar',
           buttons: [
             {
               extend: 'print',
-              text: feather.icons['printer'].toSvg({ class: 'font-small-4 mr-50' }) + 'Print',
+              text: feather.icons['printer'].toSvg({ class: 'font-small-4 mr-50' }) + 'Imprimir',
               className: 'dropdown-item',
               exportOptions: { columns: [3, 4, 5, 6, 7] }
             },
@@ -217,11 +217,12 @@ $(function () {
           }
         },
         {
-          text: feather.icons['plus'].toSvg({ class: 'mr-50 font-small-4' }) + 'Add New Record',
+          text: feather.icons['plus'].toSvg({ class: 'mr-50 font-small-4' }) + 'Crear Empresa',
           className: 'create-new btn btn-primary',
           attr: {
             'data-toggle': 'modal',
-            'data-target': '#modals-slide-in'
+            'data-target': '#modals-slide-in',
+              'href':'/incentivadoras/create-company'
           },
           init: function (api, node, config) {
             $(node).removeClass('btn-secondary');

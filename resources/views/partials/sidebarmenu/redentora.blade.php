@@ -35,44 +35,18 @@
                     data-feather="more-horizontal"></i>
             </li>
             <!--=====================================
-		        ADMINISTRAR EMPRESAS
+		        ADMINISTRAR REDENCIONES
             ======================================-->
             <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Administrar Empresa</span></a>
+                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Redenciones</span></a>
                 <ul class="menu-content menu-content-background-black">
                     <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html"><i
                                 data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas Hijas</span></a>
+                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Redenciones Realizadas</span></a>
                     </li>
                     <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
                                 data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Empresa Hija</span></a>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Empleados</span></a>
-                    </li>
-                </ul>
-            </li>
-            <!--=====================================
-		        CANALES PLANES RANKINS
-            ======================================-->
-            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='tool'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Canales Planes Rankins</span></a>
-            </li>
-            <!--=====================================
-		        ADMINISTRAR PREMIOS
-            ======================================-->
-            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='box'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Premios</span></a>
-                <ul class="menu-content menu-content-background-black">
-                    <li><a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Todos los Premios</span></a>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="guani-user-view.html"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Crear Premio</span></a>
+                                class="menu-item text-truncate text-background-menu-black" data-i18n="View">Redenciones Declinadas</span></a>
                     </li>
                 </ul>
             </li>
@@ -101,4 +75,3 @@
         </ul>
     </div>
 </div>
-

@@ -1984,6 +1984,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 //
 //
 //
+<<<<<<< HEAD
 //
 //
 //
@@ -2030,6 +2031,8 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 /* import { en, es } from "vuejs-datepicker/dist/locale";
 import Datepicker from "vuejs-datepicker";*/
 
+=======
+>>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -6557,6 +6560,7 @@ var staticRenderFns = [
               _vm._v("JPG, GIF o PNG permitidos. Tamaño máximo de 800kB")
             ])
           ])
+<<<<<<< HEAD
         ]),
         _vm._v(" "),
         _c(
@@ -7054,6 +7058,10 @@ var staticRenderFns = [
         },
         [_vm._v("Cancel")]
       )
+=======
+        ])
+      ])
+>>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
     ])
   },
   function() {
@@ -23135,6 +23143,7 @@ function vsInputvue_type_script_lang_js_objectSpread(target) { for (var i = 1; i
         input: function input(evt) {
           _this.$emit('input', evt.target.value);
         },
+<<<<<<< HEAD
         focus: function focus(evt) {
           _this.$emit('focus', evt);
 
@@ -23402,6 +23411,163 @@ var vsIcon_component = normalizeComponent(
   name: 'VsTabs',
   components: {
     vsIcon: vsIcon
+=======
+        [_vm._v("Guardar Cambios")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-outline-secondary mt-1 waves-effect",
+          attrs: { type: "reset" }
+        },
+        [_vm._v("Cancelar")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "tab-pane fade",
+        attrs: {
+          id: "account-vertical-info",
+          role: "tabpanel",
+          "aria-labelledby": "account-pill-info",
+          "aria-expanded": "false"
+        }
+      },
+      [
+        _c(
+          "form",
+          { staticClass: "validate-form", attrs: { novalidate: "novalidate" } },
+          [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "accountTextarea" } }, [
+                    _vm._v("Acerca de ti")
+                  ]),
+                  _vm._v(" "),
+                  _c("textarea", {
+                    staticClass: "form-control",
+                    attrs: {
+                      id: "accountTextarea",
+                      rows: "4",
+                      placeholder: "Cuentanos quien eres..."
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-birth-date" } }, [
+                    _vm._v("Fecha de Nacimiento")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control flatpickr flatpickr-input",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Fecha de Nacimiento",
+                      id: "account-birth-date",
+                      name: "dob",
+                      readonly: "readonly"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "accountSelect" } }, [
+                    _vm._v("Pais")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "select",
+                    {
+                      staticClass: "form-control",
+                      attrs: { id: "accountSelect" }
+                    },
+                    [
+                      _c("option", [_vm._v("USA")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("India")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Canada")])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-website" } }, [
+                    _vm._v("Website")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      name: "website",
+                      id: "account-website",
+                      placeholder: "Tu sitio web"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-sm-6" }, [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "account-phone" } }, [
+                    _vm._v("Teléfono")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "account-phone",
+                      placeholder: "Teléfono",
+                      value: "(+656) 254 2568",
+                      name: "phone"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary mt-1 mr-1 waves-effect waves-float waves-light",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Guardar Cambios")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary mt-1 waves-effect",
+                    attrs: { type: "reset" }
+                  },
+                  [_vm._v("Cancelar")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    )
+>>>>>>> 059fe72521b02e590b9e78272b407c657a22e733
   },
   props: {
     value: {

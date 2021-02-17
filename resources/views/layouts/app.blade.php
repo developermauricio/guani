@@ -74,13 +74,14 @@
 		SIDEBAR MENU app
     ======================================-->
 {{-- Si está identificado, no es una website y SÍ es admin --}}
-
-@if(!$currentWebsiteIncentivadora || !$currentWebsiteRedentora)
+@if(!$currentWebsite)
     @if(auth()->user()->isAdmin())
         @include('partials.sidebarmenu.guani')
     @endif
-@elseif($currentWebsiteIncentivadora->type === 'incentivadora')
+@elseif($currentWebsite->type === 'incentivadora')
     @include('partials.sidebarmenu.incentivadora')
+@elseif($currentWebsite->type === 'redentora')
+      @include('partials.sidebarmenu.redentora')
 @endif
 <!-- END: Main Menu-->
 
