@@ -2775,6 +2775,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "WizardCreateCompany",
@@ -2803,13 +2812,7 @@ __webpack_require__.r(__webpack_exports__);
         address: '',
         logo: null
       },
-      documentType: [{
-        id: 1,
-        name: "Cedula ciudadania"
-      }, {
-        id: 2,
-        name: "Cedula Extrangeria"
-      }]
+      documentType: []
     };
   },
   methods: {
@@ -2831,32 +2834,37 @@ __webpack_require__.r(__webpack_exports__);
     cambioPagina: function cambioPagina(prevIndex, nextIndex) {
       this.currentTab = nextIndex;
     },
-    onComplete: function onComplete() {
-      alert('Todo Bien listo para guardar...');
-    },
     changeImage: function changeImage(data) {
       this.company.logo = data.file;
       this.preview = data.src;
+    },
+    onComplete: function onComplete() {
+      alert('Todo Bien listo para guardar...');
+    },
+    showAlertError: function showAlertError(msg) {
+      this.$toast.error({
+        title: "Atención",
+        message: msg,
+        showDuration: 1000,
+        hideDuration: 4000
+      });
+    },
+
+    /*===============================================
+        METODOS PARA CUNSULTAR INFORMACION DE LA DB
+    ===============================================*/
+    getTypeDocumentIdentification: function getTypeDocumentIdentification() {
+      var _this2 = this;
+
+      axios.get("/api/identification-types").then(function (result) {
+        _this2.documentType = result.data;
+      })["catch"](function (error) {
+        _this2.showAlertError('Algo salio mal getTypeDocumentIdentification: ' + error);
+      });
     }
-    /************************************************
-     * METODOS PARA CUNSULTAR INFORMACION DE LA DB
-    *************************************************/
-
-    /* getTypeDocumentIdentification() {
-        axios.get("/api-web/company/type-document-user")
-        .then( result => {
-            this.documentType = result.data;
-        })
-        .catch(error => {
-            this.$toast.error({
-                title: "Atención",
-                message: "Algo ha salido mal " + error,
-                showDuration: 1000,
-                hideDuration: 4000
-            });
-        });
-    } */
-
+  },
+  created: function created() {
+    this.getTypeDocumentIdentification();
   },
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -36685,8 +36693,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/js/guani.js */"./resources/js/guani.js");
-module.exports = __webpack_require__(/*! /Users/mauriciogutierrez/Sites/guani/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/rodinson/Documentos/project-Laravel/guani/resources/js/guani.js */"./resources/js/guani.js");
+module.exports = __webpack_require__(/*! /home/rodinson/Documentos/project-Laravel/guani/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -17,6 +17,9 @@
                             @on-change="cambioPagina"
                             @on-complete="onComplete">
 
+                            <!--=====================================
+                                TAB: DATOS DEL REPRESENTANTE
+                            ======================================-->
                             <tab-content :beforeChange="validarTab" title="Representante">
                                 <section style="width: 100%;">
                                     <div class="row">
@@ -123,6 +126,9 @@
                                 </section>
                             </tab-content>
 
+                            <!--=====================================
+                                TAB: DATOS DE LA EMPRESA
+                            ======================================-->
                             <tab-content :beforeChange="validarTab" title="Empresa">
                                 <section style="width: 100%" v-if="currentTab===1">
                                      <div class="row">
@@ -212,6 +218,9 @@
                                 </section>
                             </tab-content>
 
+                            <!--=====================================
+                                TAB: DATOS DE  CONFIRMACIÓN
+                            ======================================-->
                             <tab-content title="Confirmar">
                                 <section style="width: 100%" v-if="currentTab===2">
                                     <div class="row">
@@ -277,9 +286,11 @@
 
     export default {
         name: "WizardCreateCompany",
+
         components: {
             Multiselect
         },
+
         data() {
             return {
                 currentTab: 0,
@@ -302,16 +313,15 @@
                     address: '',
                     logo: null,
                 },
-                documentType: [
-                    { id: 1, name: "Cedula ciudadania" },
-                    { id: 2, name: "Cedula Extrangeria" }
-                ],
+                documentType: [],
             }
         },
+
         methods: {
             validarTab() {
                 eventBus.$emit("validarFormulario");
-                setTimeout(() => {
+
+                setTimeout( () => {
                     const validated = document.querySelectorAll(".is-invalid").length < 1;
 
                     if ( validated ) {
@@ -325,32 +335,39 @@
             cambioPagina(prevIndex, nextIndex) {
                 this.currentTab = nextIndex;
             },
-            onComplete: function(){
-                alert('Todo Bien listo para guardar...');
-            },
             changeImage( data ) {
                 this.company.logo = data.file;
                 this.preview = data.src;
             },
+            onComplete: function(){
+                alert('Todo Bien listo para guardar...');
+            },
+            showAlertError( msg ) {
+                this.$toast.error({
+                    title: "Atención",
+                    message: msg,
+                    showDuration: 1000,
+                    hideDuration: 4000
+                });
+            },
 
-            /************************************************
-             * METODOS PARA CUNSULTAR INFORMACION DE LA DB
-            *************************************************/
-            /* getTypeDocumentIdentification() {
-                axios.get("/api-web/company/type-document-user")
+            /*===============================================
+                METODOS PARA CUNSULTAR INFORMACION DE LA DB
+            ===============================================*/
+            getTypeDocumentIdentification() {
+                axios.get("/api/identification-types")
                 .then( result => {
                     this.documentType = result.data;
-                })
-                .catch(error => {
-                    this.$toast.error({
-                        title: "Atención",
-                        message: "Algo ha salido mal " + error,
-                        showDuration: 1000,
-                        hideDuration: 4000
-                    });
+                }).catch( error => {
+                    this.showAlertError( 'Algo salio mal getTypeDocumentIdentification: ' + error );
                 });
-            } */
+            }
         },
+
+        created() {
+            this.getTypeDocumentIdentification();
+        },
+
         mounted() {
             console.log('Component mounted.')
         }
