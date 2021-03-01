@@ -40,4 +40,9 @@ class CityController extends Controller
     {
         return response()->json( $city );
     }
+
+    public function getListCitiesForCode( Request $request ) {
+       $listCities = City::where( 'country_code', $request->country_code )->get();
+       return response()->json( $listCities );
+    }
 }

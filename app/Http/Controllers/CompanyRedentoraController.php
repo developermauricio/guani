@@ -13,16 +13,38 @@ use Hyn\Tenancy\Repositories\HostnameRepository;
 use Hyn\Tenancy\Repositories\WebsiteRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
-class CompanyIncentivadoraController extends Controller
+class CompanyRedentoraController extends Controller
 {
-    public function index(){
-        return view('guani.emincentivadora.createemincentivadora');
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        return view('guani.emredentora.createemredentora');
     }
 
-    public function storeCompanyIncentivadora( Request $request ){
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
         $newUser = json_decode( $request->user );
         $newCompany = json_decode( $request->company );
         $newCompany->fqdn = str_replace(' ', '', $newCompany->fqdn);
@@ -40,7 +62,7 @@ class CompanyIncentivadoraController extends Controller
             $user->address = $newUser->address;
             $user->fqdn = $newCompany->fqdn;
             $user->state = User::ACTIVE;
-            $user->companytype_id = CompanyType::INCENTIVADORA;
+            $user->companytype_id = CompanyType::REDENTORA;
             $user->slug = Str::slug( $newUser->name . '-' . $newUser->lastName . '-' . Str::random(10), '-' );
             $user->picture = '/images/user-profile.png';
             $user->city_id = $newUser->city->id;
@@ -63,31 +85,30 @@ class CompanyIncentivadoraController extends Controller
             $company->phone = $newCompany->phone;
             $company->address = $newCompany->address;
             $company->slug = Str::slug( $newCompany->name . '-' . Str::random(10), '-' );
-            $company->companytype_id = CompanyType::INCENTIVADORA;
+            $company->companytype_id = CompanyType::REDENTORA;
             $company->manager_id = $manager->id;
             $company->picture = $path;
             $company->categorycompany_id = $newCompany->categoryCompany->id;
             $company->user_id = auth()->user()->id;
             $company->save();
 
-            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/incentivadora') );
+            Config::set( 'tenancy.db.tenant-migrations-path', database_path('migrations/redentora') );
             $fqdn = sprintf('%s.%s', $newCompany->fqdn, 'guani.test');
 
             $website = new Website;
             $website->uuid = $newCompany->fqdn;
-            $website->type = Website::INCENTIVADORA;
+            $website->type = Website::REDENTORA;
             $website->logo = $path;
             app(WebsiteRepository::class)->create($website);
 
             $hostname = new Hostname;
             $hostname->user_id = $user->id;
             $hostname->fqdn = $fqdn;
-            $hostname->type = Website::INCENTIVADORA;
+            $hostname->type = Website::REDENTORA;
             $hostname = app(HostnameRepository::class)->create($hostname);
             app(HostnameRepository::class)->attach($hostname, $website);
 
             //DB::commit();
-
             return response()->json( $company );
         }catch (\Exception $exception){
             //DB::rollBack();
@@ -95,7 +116,48 @@ class CompanyIncentivadoraController extends Controller
         }
     }
 
-    public function allIndex(){
-        return view('guani.emincentivadora.allemincentivadora');
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
     }
 }

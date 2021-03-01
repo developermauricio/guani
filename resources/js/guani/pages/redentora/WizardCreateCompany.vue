@@ -9,7 +9,7 @@
                             error-color="#ff4949"
                             ref="wizard"
                             shape="tab"
-                            title="Datos para crear empresa incentivadora"
+                            title="Datos para crear empresa redentora"
                             subtitle="Por favor diligencie todos los datos"
                             back-button-text="Atrás"
                             next-button-text="Siguiente"
@@ -461,8 +461,6 @@
                 METODOS PARA GUARDAR LA INFORMACION EN LA DB
             ===================================================*/
             onComplete: function(){
-                this.showMessageConsole('Todo Bien listo para guardar...', 'hola');
-
                 eventBus.$emit('validarFormulario');
 
                 setTimeout( () => {
@@ -479,7 +477,7 @@
                     data.append( "company", JSON.stringify( this.company ) );
                     data.append( "logo", this.logoCompany );
 
-                    axios.post( "/company-incentivadora-store", data )
+                    axios.post( "/company-redentora-store", data )
                         .then( (resp) => {
                             console.log('result: ', resp);
                             Swal.fire( "¡Empresa creada correctamente!", "", "success", {
@@ -488,6 +486,7 @@
                                 reverseButtons: true,
                                 allowOutsideClick: false
                             }).then( resultOk => {
+                                //window.location.href = "/redentoras/all-companies";
                                 window.location.href = "/incentivadoras/all-companies";
                             });
                         }).catch( error => {

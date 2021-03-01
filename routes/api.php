@@ -21,7 +21,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('identification-types', 'Api\IdentificationTypes\IdentificationTypeController')->only( [ 'index', 'show' ] );
 Route::resource('countries', 'Api\Country\CountryController')->only( [ 'index', 'show' ] );
+Route::resource('category-companies', 'Api\CategoryCompanies\CategoryCompaniesController')->only( [ 'index', 'show' ] );
 Route::resource('cities', 'Api\City\CityController')->only( [ 'show' ] );
+Route::get('list-cities', 'Api\City\CityController@getListCitiesForCode');
 
-
-
+Route::get('validation-email-user', 'Api\Validations\ValidationController@validationEmailUser');
+Route::get('validation-email-company', 'Api\Validations\ValidationController@validationEmailCompany');
+Route::get('validation-domain-company', 'Api\Validations\ValidationController@validationDomainCompany');

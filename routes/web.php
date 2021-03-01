@@ -34,6 +34,12 @@ Route::group(["middleware" => ["auth", "root"]], function () {
         Route::get('/incentivadoras/create-company', 'CompanyIncentivadoraController@index')->name('admin.index.create.company.incentivadora'); //Ruta para la vista CREAR EMPRESA INCENTIVADORA
         Route::post("/company-incentivadora-store", "CompanyIncentivadoraController@storeCompanyIncentivadora")->name("admin.store.company.incentivadora"); //Ruta para CREAR EMPRESA INCENTIVADORA
         Route::get('/incentivadoras/all-companies', 'CompanyIncentivadoraController@allIndex')->name('admin.allIndex.companies.incentivadora');//Ruta para la vista EMPRESAS INCENTIVADORAS
+
+        /* RUTAS PARA EMPRESA REDENTORA DESDE EL ADMIN */
+        Route::get("/redentoras/create-company", "CompanyRedentoraController@index")->name("admin.index.create.company.redentora"); //Ruta para la vista CREAR EMPRESA REDENTORA
+        Route::post("/company-redentora-store", "CompanyRedentoraController@store")->name("admin.store.company.redentora"); //Ruta para CREAR EMPRESA REDENTORA
+
+
     });
 
 });

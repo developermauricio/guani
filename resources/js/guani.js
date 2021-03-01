@@ -55,9 +55,14 @@ Vue.component('upload-image', require('./components/form/UploadImageComponent.vu
 COMPONENTES PAGINAS EMPRESA INCENTIVADORA
 =============================================*/
 Vue.component('all-companies-incentivadora', require('./guani/pages/incentivadora/AllCompaniesIncen.vue').default);
-//Vue.component('create-company-incentivadora', require('./guani/pages/incentivadora/CreateCompany.vue').default);
-//Vue.component('create-company-incentivadora', require('./guani/pages/incentivadora/CreateCompanyPage.vue').default);
 Vue.component('create-company-incentivadora', require('./guani/pages/incentivadora/WizardCreateCompany.vue').default);
+
+
+/*============================================
+COMPONENTES PAGINAS EMPRESA REDENTORA
+=============================================*/
+//Vue.component('all-companies-incentivadora', require('./guani/pages/incentivadora/AllCompaniesIncen.vue').default);
+Vue.component('create-company-redentora', require('./guani/pages/redentora/WizardCreateCompany.vue').default);
 
 Vue.component('profile-admin', require('./guani/pages/profile/Profile.vue').default);
 
