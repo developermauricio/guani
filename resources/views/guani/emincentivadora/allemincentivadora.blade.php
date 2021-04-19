@@ -1,9 +1,13 @@
 @extends('layouts.app')
 
+@push('css')
+
+@endpush
+
 @section('header')
     <div class="content-header-left col-md-12 col-12 mb-2">
         <div class="row breadcrumbs-top">
-            <div class="col-12">
+            <div class="col-12 red">
                 <h2 class="content-header-title float-left mb-0">Empresas Incentivadoras</h2>
                 <div class="breadcrumb-wrapper">
                     <ol class="breadcrumb">
@@ -48,8 +52,12 @@
     </div>
 
 @endsection
-@push('js')
-    <script>
-    </script>
+
+@push('scripts')
+    <script src="/data-table/datatable-company-redentora.js"></script>
+    {{-- <script>
+        console.log('hola bb');
+        $('button').on( "click", ".new-company-redentora", function() { console.log('hola.....') });
+    </script> --}}
 @endpush
 

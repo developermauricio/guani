@@ -11,5 +11,7 @@ class CompanyType extends Model
     const INCENTIVADORA = 2;
     const REDENTORA = 3;
 
-
+    /* public function company( ) {
+       return $this->hasMany( Company::class );
+    } */
 }

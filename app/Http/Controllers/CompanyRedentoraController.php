@@ -27,6 +27,18 @@ class CompanyRedentoraController extends Controller
         return view('guani.emredentora.createemredentora');
     }
 
+    public function allIndex(){
+        return view('guani.emredentora.allemredentora');
+    }
+
+    public function profileIndex(){
+        return view('guani.emredentora.profileemredentora');
+    }
+
+    public function editIndex(){
+        return view('guani.emredentora.editemredentora');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

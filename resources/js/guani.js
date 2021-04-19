@@ -27,6 +27,7 @@ import CxltToastr from 'cxlt-vue2-toastr';
 import 'cxlt-vue2-toastr/dist/css/cxlt-vue2-toastr.css';
 Vue.use(CxltToastr);
 
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -61,11 +62,25 @@ Vue.component('create-company-incentivadora', require('./guani/pages/incentivado
 /*============================================
 COMPONENTES PAGINAS EMPRESA REDENTORA
 =============================================*/
-//Vue.component('all-companies-incentivadora', require('./guani/pages/incentivadora/AllCompaniesIncen.vue').default);
+Vue.component('profile-company-redentora', require('./guani/pages/redentora/ProfileCompany.vue').default);
+Vue.component('edit-company-redentora', require('./guani/pages/redentora/EditCompany.vue').default);
 Vue.component('create-company-redentora', require('./guani/pages/redentora/WizardCreateCompany.vue').default);
 
 Vue.component('profile-admin', require('./guani/pages/profile/Profile.vue').default);
 
+
+import vuetify from './components/plugin/vuetify';
+
+/* import VueInternationalization from 'vue-i18n';
+import Locale from './vue-i18n-locales.generated';
+
+window.Vue.use(VueInternationalization);
+
+
+const i18n = new VueInternationalization({
+    locale: window.lang,
+    messages: Locale
+}); */
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -75,4 +90,5 @@ Vue.component('profile-admin', require('./guani/pages/profile/Profile.vue').defa
 
 const app = new Vue({
     el: '#app',
+    vuetify,
 });

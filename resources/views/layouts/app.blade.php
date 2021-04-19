@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description"
           content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
@@ -19,6 +20,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/favi.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
           rel="stylesheet">
+
+    {{-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> --}}
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    {{-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> --}}
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
@@ -54,8 +59,10 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    {{-- <link rel="stylesheet" type="text/css" href="/css/style-main.css"> --}}
     <!-- END: Custom CSS-->
     <!-- Scripts -->
+    @stack('css')
 </head>
 <!-- END: Head-->
 
@@ -146,7 +153,7 @@
 <!-- END: Theme JS-->
 
 <!-- BEGIN: Page JS-->
-<script src="/app-assets/js/scripts/tables/table-datatables-advanced.js"></script>
+{{-- <script src="/app-assets/js/scripts/tables/table-datatables-advanced.js"></script> --}}
 <script src="/app-assets/js/scripts/tables/table-datatables-basic.js"></script>
 <script src="/app-assets/js/scripts/pages/page-profile.js"></script>
 <script src="/app-assets/js/scripts/pages/page-account-settings.js"></script>
@@ -168,6 +175,9 @@
         }
     })
 </script>
+
+@stack('scripts')
+
 </body>
 <!-- END: Body-->
 

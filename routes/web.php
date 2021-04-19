@@ -37,8 +37,10 @@ Route::group(["middleware" => ["auth", "root"]], function () {
 
         /* RUTAS PARA EMPRESA REDENTORA DESDE EL ADMIN */
         Route::get("/redentoras/create-company", "CompanyRedentoraController@index")->name("admin.index.create.company.redentora"); //Ruta para la vista CREAR EMPRESA REDENTORA
+        Route::get("/redentoras/profile-company", "CompanyRedentoraController@profileIndex")->name("admin.index.profile.company.redentora"); //Ruta para la vista CREAR EMPRESA REDENTORA
+        Route::get("/redentoras/edit-company", "CompanyRedentoraController@editIndex")->name("admin.index.edit.company.redentora"); //Ruta para la vista CREAR EMPRESA REDENTORA
+        Route::get('/redentoras/all-companies', 'CompanyRedentoraController@allIndex')->name('admin.allIndex.companies.redentora'); //Ruta para la vista EMPRESAS REDENTORAS
         Route::post("/company-redentora-store", "CompanyRedentoraController@store")->name("admin.store.company.redentora"); //Ruta para CREAR EMPRESA REDENTORA
-
 
     });
 

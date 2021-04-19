@@ -37,12 +37,17 @@
             <!--=====================================
 		        EMPRESA INCENTIVADORES
             ======================================-->
-            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Incentivadoras</span></a>
+            <li class=" nav-item icons-background-black">
+                <a class="d-flex align-items-center" href="#">
+                    <i data-feather='thumbs-up'></i>
+                    <span class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Incentivadoras</span>
+                </a>
                 <ul class="menu-content menu-content-background-black">
-                    <li class="{{request()->is('incentivadoras/all-companies') ? 'active' : '' }}" ><a class="d-flex align-items-center hover-colapse-menu-background-black" href="{{ route('admin.allIndex.companies.incentivadora') }}"><i
-                                data-feather="circle"></i><span
-                                class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas</span></a>
+                    <li class="{{request()->is('incentivadoras/all-companies') ? 'active' : '' }}" >
+                        <a class="d-flex align-items-center hover-colapse-menu-background-black" href="{{ route('admin.allIndex.companies.incentivadora') }}">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas</span>
+                        </a>
                     </li>
                     <li class="{{request()->is('incentivadoras/create-company') ? 'active' : '' }}">
                         <a class="d-flex align-items-center" href="{{route('admin.index.create.company.incentivadora')}}">
@@ -55,11 +60,14 @@
             <!--=====================================
 		        EMPRESAS REDENTORAS
             ======================================-->
-            <li class=" nav-item icons-background-black"><a class="d-flex align-items-center" href="#"><i data-feather='thumbs-up'></i><span
-                        class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Redentoras</span></a>
+            <li class=" nav-item icons-background-black">
+                <a class="d-flex align-items-center" href="#">
+                    <i data-feather='thumbs-up'></i>
+                    <span class="menu-title text-truncate text-background-menu-black" data-i18n="User">Em. Redentoras</span>
+                </a>
                 <ul class="menu-content menu-content-background-black">
-                    <li>
-                        <a class="d-flex align-items-center hover-colapse-menu-background-black" href="guani-user-list.html">
+                    <li class="{{request()->is('redentoras/all-companies') ? 'active' : '' }}" >
+                        <a class="d-flex align-items-center hover-colapse-menu-background-black" href="{{ route('admin.allIndex.companies.redentora') }}">
                             <i data-feather="circle"></i>
                             <span class="menu-item text-truncate text-background-menu-black" data-i18n="List">Empresas</span>
                         </a>
